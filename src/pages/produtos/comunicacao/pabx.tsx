@@ -1,20 +1,20 @@
 import { Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
-import ButtonChakra from "../../../components/Button/Button";
-import Topics from "../../../components/Information/Topics";
-import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
-import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
-import Track from "../../../components/ProdutosPage/track";
-import H1 from "../../../components/Texts/H1";
-import H3 from "../../../components/Texts/H3";
+import ButtonChakra from "./../../../components/Button/Button";
+import Topics from "./../../../components/Information/Topics";
+import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
+import PresentationProduction from "./../../../components/ProdutosPage/PresentationProduction";
+import Track from "./../../../components/ProdutosPage/track";
+import H1 from "./../../../components/Texts/H1";
+import H3 from "./../../../components/Texts/H3";
 
 
-import Can from './../../img/pabx/camera.jpg'
-import BranchCall from './../../img/pabx/chamadas.jpg'
-import Group04 from './../../img/pabx/grup04.jpg'
-import Group05 from './../../img/pabx/grup05.jpg'
-import Group06 from './../../img/pabx/grup06.jpg'
-import Dashboard from './../../img/pabx/painel.jpg'
+import Can from './../../../img/pabx/camera.jpg'
+import BranchCall from './../../../img/pabx/chamadas.jpg'
+import Group04 from './../../../img/pabx/grup04.jpg'
+import Group05 from './../../../img/pabx/grup05.jpg'
+import Group06 from './../../../img/pabx/grup06.jpg'
+import Dashboard from './../../../img/pabx/painel.jpg'
 
 
 export default function Pabx() {
