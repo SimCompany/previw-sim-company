@@ -1,4 +1,4 @@
-import { Flex, Grid, GridItem, Text } from "@chakra-ui/react";
+import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import ButtonChakra from "./../../../components/Button/Button";
 import Topics from "./../../../components/Information/Topics";
@@ -11,7 +11,7 @@ import Center from './../../img/atendimento/rum03.jpg'
 
 import dashboard from './../../img/atendimento/dashboard.jpg'
 
-import ControlForAll from '.././../../img/suporte-ti-remota/parte0.jpg'
+import ControlForAll from './../../../img/suporte-ti-remota/parte0.jpg'
 import parte1 from './../../../img/suporte-ti-remota/parte1.png'
 import parte2 from './../../../img/suporte-ti-remota/part2.png'
 import parte3 from './../../../img/suporte-ti-remota/part3.png'
@@ -114,23 +114,15 @@ export default function AutomatizeTarefas() {
           />
         </DoubleGrid>
 
-
-        <Flex
-          flexDirection='column'
-          textAlign='center'
-          alignItems='center'
-          my='100px'>
-          <H3
-            fontSize='3xl'
-          >
-            Repense a administração de TI
-          </H3>
-          <Text>
-          Tenha tudo que você precisa para avaliar e gerenciar sua central de atendimento com segurança em um só lugar.
+        <Flex px='10%' bgColor='#f0ef37' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+          <Text fontSize='3xl'>
+            Gostaria de saber quanto custaria essa solução?<br />
+            Realize uma cotação sem compromisso
           </Text>
-          <ButtonChakra mt='6' px='8' py='6'>Fazer meu pedido</ButtonChakra>
+          <Button mt='4' color='Blue.800'>
+            Realizar cotação
+          </Button>
         </Flex>
-
       </main>
     </>
   )

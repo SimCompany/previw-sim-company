@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Grid, GridItem, HStack, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Divider, Flex, Grid, GridItem, HStack, Icon, LinkOverlay, Stack, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import ButtonChakra from "../components/Button/Button";
@@ -16,6 +16,7 @@ import Call2 from './../img/index/chamada02.jpg'
 import Suport from './../img/index/24_7.png'
 import ZeroTrust from './../img/index/ZERO-TRUST.png'
 import Time from './../img/index/9999.png'
+import { BsArrowRightShort } from "react-icons/bs";
 
 
 export default function Index() {
@@ -27,13 +28,13 @@ export default function Index() {
       </Box>
 
       <Flex
-        my='100px'
+        my='125px'
         mx={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
         maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}>
-        <Box >
+        <Box flex='1'>
           <Image src={Call1} />
         </Box>
-        <Stack alignSelf='center' ml='40px' spacing='20px'>
+        <Stack flex='1' alignSelf='center' ml='40px' spacing='20px'>
           <Box>
             <H3>Simplifique as comunicações da sua empresa</H3>
             <Text>Procura estabelecer uma conexão com sua equipe e clientes de maneira segura e prática? Veja as principais soluções oferecidas em nosso site.</Text>
@@ -41,15 +42,33 @@ export default function Index() {
           <Box>
             <H5>PABX em Nuvem</H5>
             <Text>O PABX em nuvem é a solução para diversas empresas se comunicarem com seus clientes.</Text>
+            <Link href='/produtos/comunicacao/call-center-em-nuvem'>
+              <Flex alignItems='end' cursor='pointer' w='110px'>
+                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+              </Flex>
+            </Link>
           </Box>
           <Box>
             <H5>Nossos hardware</H5>
             <Text>Nosso hardware de fácil configuração transforma qualquer espaço em uma sala de conferências totalmente conectada e funcional.</Text>
+            <Link href='/produtos/comunicacao/hardware-para-conferencias'>
+              <Flex alignItems='end' cursor='pointer' w='110px'>
+                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+              </Flex>
+            </Link>
           </Box>
           <Box>
             <H5>Videoconferência</H5>
             <Text>Nossa plataforma de videoconferência oferece interatividade de ponta, análises criteriosas e integrações eficientes.
             </Text>
+            <Link href='/produtos/comunicacao/plataforma-de-videoconferencia'>
+              <Flex alignItems='end' cursor='pointer' w='110px'>
+                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+              </Flex>
+            </Link>
           </Box>
         </Stack>
       </Flex>
@@ -79,7 +98,7 @@ export default function Index() {
       </HStack>
 
       <Flex
-        my='100px'
+        my='125px'
         mx={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
         maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}>
         <Box flex='1'>
@@ -93,21 +112,39 @@ export default function Index() {
           <Box>
             <H5>Gerenciamento remoto</H5>
             <Text>suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança.</Text>
+            <Link href='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>
+              <Flex alignItems='end' cursor='pointer' w='110px'>
+                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+              </Flex>
+            </Link>
           </Box>
           <Box>
             <H5>Ti remoto</H5>
             <Text>facilidade de uso e tranquilidade como nenhuma outra ferramenta.</Text>
+            <Link href='/produtos/acesso-remoto/ti-remoto'>
+              <Flex alignItems='end' cursor='pointer' w='110px'>
+                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+              </Flex>
+            </Link>
           </Box>
           <Box>
             <H5>Suporte remoto</H5>
             <Text>Segurança avançada. Resoluções ágeis e diretas. Integrações simples.</Text>
+            <Link href='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>
+              <Flex alignItems='end' cursor='pointer' w='110px'>
+                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+              </Flex>
+            </Link>
           </Box>
         </Stack>
       </Flex>
 
       <Flex
-        mt='100px'
-        py='50px'
+        mt='125px'
+        py='75px'
         px={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
         bgColor='#ffe900'
       >
@@ -150,11 +187,17 @@ export default function Index() {
             letterSpacing={0}
             fontWeight='extrabold'
             color='Blue.800'
-          >Sim Company</Text>
+          >Sobre nós</Text>
 
-          <Text>Sim Company é mais que uma revenda. É uma integradora de soluções para quem precisa de
-            uma infraestrutura ágil e acessível, aplicações e serviços de TI, tais como Virtualização,
-            Implantação de Sistemas Operacionais, Storage, Backup, Banco de Dados e muito mais.</Text>
+          <Text>A Sim Company nasceu para oferecer a melhor experiência em atendimento e para trazer mais
+            praticidade para seu dia a dia.<br />
+            Somos uma empresa engajada em unir pessoas através da tecnologia, em um mundo cada vez mais
+            polarizado. Prezamos as necessidades individuais de cada empresa, seja ela pequena ou uma
+            grande corporação.<br />
+            Com uma equipe altamente qualificada, preparada para analisar suas necessidades e desenvolver
+            projetos que estejam de acordo com a sua realidade, intermediamos soluções e trazemos
+            resultados.<br />
+            Nosso foco é o seu sucesso!</Text>
         </Box>
         <Box
           w='100%'

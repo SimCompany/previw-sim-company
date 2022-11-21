@@ -1,19 +1,13 @@
-import { Box, Flex, Grid, GridItem, Highlight, Text } from "@chakra-ui/react";
+import { Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
-import Image from "next/image";
-import ButtonChakra from "./../../../components/Button/Button";
-import Topics from "./../../../components/Information/Topics";
-import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
-import PresentationProduction from "./../../../components/ProdutosPage/PresentationProduction";
-import Track from "./../../../components/ProdutosPage/track";
-import H1 from "./../../../components/Texts/H1";
-import H2 from "./../../../components/Texts/H2";
-import H3 from "./../../../components/Texts/H3";
-import H4 from "./../../../components/Texts/H4";
-import H5 from "./../../../components/Texts/H5";
+import ButtonChakra from "../../../components/Button/Button";
+import Topics from "../../../components/Information/Topics";
+import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
+import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
+import Track from "../../../components/ProdutosPage/track";
+import H1 from "../../../components/Texts/H1";
 
 
-import webinar from './../../../img/plataforma-para-eventos/webinar-site.jpg'
 import webinarGraphic from './../../../img/plataforma-para-eventos/grafico-webinar.jpg'
 import DashboardWebinar from './../../../img/plataforma-para-eventos/dashboard-webinar.jpg'
 import ModelWebinar from './../../../img/plataforma-para-eventos/modelo-webinar.jpg'

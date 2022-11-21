@@ -23,7 +23,7 @@ export default function SoftwareSuporteRemotoTI() {
   return (
     <>
       <Head>
-        <title>Produtos - Plataforma de Videoconferência | Sim Company</title>
+        <title>  | Sim Company</title>
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>

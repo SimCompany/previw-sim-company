@@ -1,4 +1,4 @@
-import { Grid, GridItem, Text } from "@chakra-ui/react";
+import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import ButtonChakra from "./../../../components/Button/Button";
 import Topics from "./../../../components/Information/Topics";
@@ -95,6 +95,16 @@ export default function AutomatizeTarefas() {
             description='Gerencie todos os seus endpoints de qualquer lugar com um painel de visualização única onde você pode monitorar o status de qualquer dispositivo, implantar software e gerenciar alertas de conexão.'
           />
         </DoubleGrid>
+
+        <Flex px='10%' bgColor='#f0ef37' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+            <Text fontSize='3xl'>
+              Gostaria de saber quanto custaria essa solução?<br />
+              Realize uma cotação sem compromisso
+            </Text>
+            <Button mt='4' color='Blue.800'>
+              Realizar cotação
+            </Button>
+          </Flex>
 
         <Text
           fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}

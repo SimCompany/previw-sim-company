@@ -1,14 +1,14 @@
 import { Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import Image from "next/image";
-import ButtonChakra from "./../../../components/Button/Button";
-import Topics from "./../../../components/Information/Topics";
+import ButtonChakra from "../../../components/Button/Button";
+import Topics from "../../../components/Information/Topics";
 import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
-import PresentationProduction from "./../../../components/ProdutosPage/PresentationProduction";
-import Track from "./../../../components/ProdutosPage/track";
-import H1 from "./../../../components/Texts/H1";
-import H2 from "./../../../components/Texts/H2";
-import H3 from "./../../../components/Texts/H3";
+import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
+import Track from "../../../components/ProdutosPage/track";
+import H1 from "../../../components/Texts/H1";
+import H2 from "../../../components/Texts/H2";
+import H3 from "../../../components/Texts/H3";
 
 import CamPoly from './../../../img/comunicacao/camera-poly-sim-company.jpg'
 import CalPlay from './../../../img/comunicacao/chamada-de-video-online.png'
@@ -20,12 +20,13 @@ import Meeting from './../../../img/comunicacao/meeting.svg'
 
 
 
+
 export default function Comunicação() {
 
   return (
     <>
       <Head>
-        <title>Produtos - Comunicação | Sim Company</title>
+        <title>Produtos - Hardware para conferências | Sim Company</title>
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>

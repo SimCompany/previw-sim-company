@@ -52,11 +52,8 @@ export default function Footer() {
           <Text fontWeight='bold' color='white'>Acesso Remoto</Text>
           <Stack spacing={1} color='white'>
             <Text mt='2'>TI remota</Text>
-            <Text>Acesso remoto</Text>
             <Text>Monitoramento</Text>
             <Text>Suporte de TI</Text>
-            <Text>GoToMyPC</Text>
-            <Text>GoToAssist</Text>
           </Stack>
         </GridItem>
 

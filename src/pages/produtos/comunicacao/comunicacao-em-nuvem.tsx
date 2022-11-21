@@ -1,12 +1,12 @@
 import { Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
-import ButtonChakra from "./../../../components/Button/Button";
-import Topics from "./../../../components/Information/Topics";
-import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
-import PresentationProduction from "./../../../components/ProdutosPage/PresentationProduction";
-import Track from "./../../../components/ProdutosPage/track";
-import H1 from "./../../../components/Texts/H1";
-import H3 from "./../../../components/Texts/H3";
+import ButtonChakra from "../../../components/Button/Button";
+import Topics from "../../../components/Information/Topics";
+import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
+import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
+import Track from "../../../components/ProdutosPage/track";
+import H1 from "../../../components/Texts/H1";
+import H3 from "../../../components/Texts/H3";
 
 
 import Can from './../../../img/pabx/camera.jpg'
@@ -15,6 +15,8 @@ import Group04 from './../../../img/pabx/grup04.jpg'
 import Group05 from './../../../img/pabx/grup05.jpg'
 import Group06 from './../../../img/pabx/grup06.jpg'
 import Dashboard from './../../../img/pabx/painel.jpg'
+
+import Phone from './../../../img/phone.png'
 
 
 export default function Pabx() {
@@ -56,7 +58,6 @@ export default function Pabx() {
 
         <Track bgColor='Green.300'
           title='Telefonia, reuniões e mensagens all-in-one'
-          description='Descubra mais'
         />
 
 
@@ -87,9 +88,20 @@ export default function Pabx() {
           <ButtonChakra px='60px' py='24px'>Fazer um orçamento</ButtonChakra>
         </Flex>
 
+        <DoubleGrid
+          mt={{ base: '50px', md: '75px' }}
+          flexDirection={{ base: 'column', lg: 'row' }}
+          urlImage={Phone}
+        >
+          <Topics
+            title='Um sistema de telefonia virtual que trabalha em sintonia com você'
+            description='Adicione números para ligações gratuitas ou faça a portabilidade dos números atuais. Implemente um diretório de árvore telefônica em toda a empresa. Crie um atendente virtual para encaminhar chamadas. Um fluxo de chamadas adequado impulsiona os negócios na direção certa.'
+          />
+        </DoubleGrid>
+
 
         <DoubleGrid
-          my={{ base: '50px', md: '85px' }}
+          my={{ base: '35px', md: '50px' }}
           flexDirection={{ base: 'column', lg: 'row-reverse' }}
           textAlign='end'
           urlImage={BranchCall}
@@ -109,7 +121,7 @@ export default function Pabx() {
 
 
         <DoubleGrid
-          my={{ base: '50px', md: '85px' }}
+          my={{ base: '35px', md: '50px' }}
           flexDirection={{ base: 'column', lg: 'row' }}
           urlImage={Dashboard}
         >
@@ -123,7 +135,7 @@ export default function Pabx() {
 
 
         <DoubleGrid
-          mb={{ base: '50px', md: '85px' }}
+          my={{ base: '35px', md: '50px' }}
           flexDirection={{ base: 'column', lg: 'row-reverse' }}
           urlImage={Can}
           textAlign='end'
@@ -136,7 +148,8 @@ export default function Pabx() {
         </DoubleGrid>
 
 
-        <Track 
+        <Track
+          bgColor='#f0ef37'
           title='Soluções de trabalho flexível compatíveis com
           qualquer aplicativo, em qualquer lugar'
           description="

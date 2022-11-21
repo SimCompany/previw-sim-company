@@ -1,14 +1,14 @@
 import { Flex, Grid, GridItem, List, ListIcon, ListItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import Image from "next/image";
-import ButtonChakra from "./../../../components/Button/Button";
-import Topics from "./../../../components/Information/Topics";
-import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
-import PresentationProduction from "./../../../components/ProdutosPage/PresentationProduction";
-import Track from "./../../../components/ProdutosPage/track";
-import H1 from "./../../../components/Texts/H1";
-import H2 from "./../../../components/Texts/H2";
-import H3 from "./../../../components/Texts/H3";
+import ButtonChakra from "../../../components/Button/Button";
+import Topics from "../../../components/Information/Topics";
+import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
+import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
+import Track from "../../../components/ProdutosPage/track";
+import H1 from "../../../components/Texts/H1";
+import H2 from "../../../components/Texts/H2";
+import H3 from "../../../components/Texts/H3";
 
 import { MdCheckCircle } from 'react-icons/md'
 
@@ -17,7 +17,7 @@ import Admin from './../../../img/plataforma-de-videoconferência/administraçã
 import AudioQuality from './../../../img/plataforma-de-videoconferência/qualidade-de-audio-sim-company.jpg'
 import Call from './../../../img/plataforma-de-videoconferência/conferencia-online.jpg'
 import Conect from './../../../img/plataforma-de-videoconferência/conexão-mundial.jpg'
-import H5 from "./../../../components/Texts/H5";
+import H5 from "../../../components/Texts/H5";
 
 
 

@@ -9,8 +9,13 @@ import MenuWindown from "./MenuWindown";
 import SetMenuItem from "./SetMenuItem";
 
 import { BsArrowRightShort, BsInstagram, BsWhatsapp } from 'react-icons/bs'
+import { AiOutlineLinkedin } from 'react-icons/ai'
 import { RiFacebookCircleLine } from 'react-icons/ri'
-import { AiOutlineYoutube } from 'react-icons/ai'
+import { SiWhatsapp } from 'react-icons/si'
+// import { BsInstagram } from 'react-icons/ai'
+// import {  } from 'react-icons/ci'
+import { GrInstagram } from 'react-icons/gr'
+
 
 export default function Menu() {
   const { isOpen, onClose, onOpen } = useDisclosure()
@@ -25,7 +30,7 @@ export default function Menu() {
 
 
   useEffect(() => {
-    onClose
+    onClose()
   }, [router.asPath])
 
   if (isDrawer) {
@@ -105,7 +110,6 @@ export default function Menu() {
       justifyContent='space-between'
       h='80px'
       alignItems='center'
-      maxW={{ '2xl': '1344px' }}
       mx={{ base: '5%', sm: '10%' }}>
 
       <Flex>
@@ -119,9 +123,10 @@ export default function Menu() {
         </Flex>
 
         <HStack spacing='4'>
-          <Icon fontSize='26px' as={BsInstagram} />
-          <Icon fontSize='30px' as={RiFacebookCircleLine} />
-          <Icon fontSize='26px' as={BsWhatsapp} />
+          <Icon fontSize='30px' as={AiOutlineLinkedin} />
+          <Icon fontSize='24px' as={GrInstagram} />
+          <Icon fontSize='29px' as={RiFacebookCircleLine} />
+          <Icon fontSize='24px' as={SiWhatsapp} />
         </HStack>
 
       </Flex>
@@ -175,12 +180,12 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/comunicacao/pabx'>PABX</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/pabx-em-nuvem'>Pabx em nuvem</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/comunicacao-em-nuvem'>Comunicação em nuvem</MenuItem>
                     <MenuItem link='/produtos/comunicacao/hardware-para-conferencias'>Hardware para conferências</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/ligacoes-em-nuvem'>Ligações em nuvem</MenuItem>
-                    <MenuItem link='/produtos/comicacao/plataforma-de-videoconferencia'>Plataforma de videoconferência</MenuItem>
-                    <MenuItem link='/produtos/plataforma-para-eventos'>Plataforma para eventos virtuais</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/call-center-em-nuvem'>Call Center em nuvem</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/plataforma-de-videoconferencia'>Plataforma de videoconferência</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/plataforma-para-eventos-virtuais'>Plataforma para eventos virtuais</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/novas-possibilidades-com-goto'>Novas possibilidades com GoTo</MenuItem>
                   </Stack>
                 </Box>
 
@@ -207,7 +212,10 @@ export default function Menu() {
                     <Icon as={BsArrowRightShort} fontSize='24px' />
                   </Flex>
                   <Divider my='10px' />
-                  <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>Gerenciamento pessoal</MenuItem>
+                  <Stack spacing='10px'>
+                    <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>Gerenciamento bissnes</MenuItem>
+                    <MenuItem link=''>Gerenciamento para empresas</MenuItem>
+                  </Stack>
                 </Box>
               </Stack>
             </Flex>

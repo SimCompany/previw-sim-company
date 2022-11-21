@@ -1,12 +1,12 @@
 import { Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
-import ButtonChakra from "./../../../components/Button/Button";
-import Topics from "./../../../components/Information/Topics";
-import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
-import Track from "./../../../components/ProdutosPage/track";
-import H1 from "./../../../components/Texts/H1";
-import H3 from "./../../../components/Texts/H3";
-import H5 from "./../../../components/Texts/H5";
+import ButtonChakra from "../../../components/Button/Button";
+import Topics from "../../../components/Information/Topics";
+import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
+import Track from "../../../components/ProdutosPage/track";
+import H1 from "../../../components/Texts/H1";
+import H3 from "../../../components/Texts/H3";
+import H5 from "../../../components/Texts/H5";
 
 import Acess from './../../../img/gerenciament-de-senhas/s2.jpg'
 
@@ -65,6 +65,7 @@ export default function GerenciamentoDeSenhas() {
             description='Salve a senha uma vez e ela ficará disponível imediatamente em todos os seus dispositivos. Com o Premium, o LastPass está sempre com você, em todos os seus dispositivos.'
           />
         </DoubleGrid>
+        
 
         <Grid
           px='10%'

@@ -1,13 +1,13 @@
 import { Flex, Grid, GridItem, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
 import Head from "next/head";
-import ButtonChakra from "./../../../components/Button/Button";
-import Topics from "./../../../components/Information/Topics";
-import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
-import PresentationProduction from "./../../../components/ProdutosPage/PresentationProduction";
-import Track from "./../../../components/ProdutosPage/track";
-import H1 from "./../../../components/Texts/H1";
-import H3 from "./../../../components/Texts/H3";
-import H5 from "./../../../components/Texts/H5";
+import ButtonChakra from "../../../components/Button/Button";
+import Topics from "../../../components/Information/Topics";
+import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
+import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
+import Track from "../../../components/ProdutosPage/track";
+import H1 from "../../../components/Texts/H1";
+import H3 from "../../../components/Texts/H3";
+import H5 from "../../../components/Texts/H5";
 
 import FlexInCloud from './../../../img/atendimento/flexibilidade-em-nuvem.jpg'
 import Data from './../../../img/atendimento/rum02.jpg'
@@ -24,7 +24,7 @@ export default function Comunicação() {
   return (
     <>
       <Head>
-        <title>Produtos - Atendimento | Sim Company</title>
+        <title>Produtos - Ligações em nuvem | Sim Company</title>
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>
