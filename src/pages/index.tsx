@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Flex, Grid, GridItem, HStack, Icon, LinkOverlay, Stack, Text } from "@chakra-ui/react";
+import { AspectRatio, Box, Button, Divider, Flex, Grid, GridItem, HStack, Icon, LinkOverlay, Stack, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import ButtonChakra from "../components/Button/Button";
@@ -28,13 +28,14 @@ export default function Index() {
       </Box>
 
       <Flex
-        my='125px'
+        my={{ base: '100px', lg: '125px' }}
         mx={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
-        maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}>
+        maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}
+        flexDirection={{ base: 'column', lg: 'row' }}>
         <Box flex='1'>
           <Image src={Call1} />
         </Box>
-        <Stack flex='1' alignSelf='center' ml='40px' spacing='20px'>
+        <Stack flex='1' alignSelf='center' ml={{ base: '0px', lg: '40px' }} mt={{ base: '20px', lg: '0px' }} spacing='20px'>
           <Box>
             <H3>Simplifique as comunicações da sua empresa</H3>
             <Text>Procura estabelecer uma conexão com sua equipe e clientes de maneira segura e prática? Veja as principais soluções oferecidas em nosso site.</Text>
@@ -44,8 +45,8 @@ export default function Index() {
             <Text>O PABX em nuvem é a solução para diversas empresas se comunicarem com seus clientes.</Text>
             <Link href='/produtos/comunicacao/call-center-em-nuvem'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
-                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
-                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+                <Text color='green.800' mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon color='green.800' as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
               </Flex>
             </Link>
           </Box>
@@ -54,8 +55,8 @@ export default function Index() {
             <Text>Nosso hardware de fácil configuração transforma qualquer espaço em uma sala de conferências totalmente conectada e funcional.</Text>
             <Link href='/produtos/comunicacao/hardware-para-conferencias'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
-                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
-                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+                <Text color='green.800' mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon color='green.800' as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
               </Flex>
             </Link>
           </Box>
@@ -65,24 +66,24 @@ export default function Index() {
             </Text>
             <Link href='/produtos/comunicacao/plataforma-de-videoconferencia'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
-                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
-                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+                <Text color='green.800' mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon color='green.800' as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
               </Flex>
             </Link>
           </Box>
         </Stack>
       </Flex>
 
-      <HStack
-        // maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}
+      <Stack
         px={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
-        py='50px'
+        py={{base:'100px', md:'50px'}}
         bgColor='#ffe900'
-        mb='150px'
         justifyContent='space-around'
         textAlign='center'
-      >
+        direction={{ base: 'column', md: 'row' }}
 
+        spacing={{base:'20', md:'4'}}
+      >
         <Box>
           <Image src={Suport} />
           <H5>Suporte ao cliente <br /> premiado</H5>
@@ -95,16 +96,17 @@ export default function Index() {
           <Image src={Time} />
           <H5>Tempo de atividade <br />imbatível</H5>
         </Box>
-      </HStack>
+      </Stack>
 
       <Flex
         my='125px'
         mx={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
-        maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}>
+        maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}
+        flexDirection={{ base: 'column', lg: 'row' }}>
         <Box flex='1'>
           <Image src={Call2} />
         </Box>
-        <Stack flex='1' alignSelf='center' ml='40px' spacing='20px'>
+        <Stack flex='1' alignSelf='center' ml={{ base: '0px', lg: '40px' }} mt={{ base: '20px', lg: '0px' }} spacing='20px'>
           <Box>
             <H3>TI remota que muda tudo</H3>
             <Text>Com recursos essenciais de suporte de TI, como acesso remoto, geração de tickets conversacionais e muitos outros, a GoTo mantém todo mundo conectado, onde quer que o trabalho esteja acontecendo.</Text>
@@ -114,8 +116,8 @@ export default function Index() {
             <Text>suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança.</Text>
             <Link href='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
-                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
-                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+                <Text color='green.800' mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon color='green.800' as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
               </Flex>
             </Link>
           </Box>
@@ -124,8 +126,8 @@ export default function Index() {
             <Text>facilidade de uso e tranquilidade como nenhuma outra ferramenta.</Text>
             <Link href='/produtos/acesso-remoto/ti-remoto'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
-                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
-                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+                <Text color='green.800' mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon color='green.800' as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
               </Flex>
             </Link>
           </Box>
@@ -134,8 +136,8 @@ export default function Index() {
             <Text>Segurança avançada. Resoluções ágeis e diretas. Integrações simples.</Text>
             <Link href='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
-                <Text mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
-                <Icon as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
+                <Text color='green.800' mt='2' fontSize='18px' _hover={{ textDecoration: 'underline' }}>Acessar</Text>
+                <Icon color='green.800' as={BsArrowRightShort} fontSize='24px' ml='1' mb='0.5' />
               </Flex>
             </Link>
           </Box>
@@ -143,15 +145,26 @@ export default function Index() {
       </Flex>
 
       <Flex
-        mt='125px'
+        mt={{ base: '100px', lg: '125px' }}
         py='75px'
         px={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
         bgColor='#ffe900'
+        flexDirection={{ base: 'column', xl: 'row' }}
       >
-        <Box flex='1' alignSelf='center'>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/gTEzqhYLwCI"></iframe>
-        </Box>
-        <Stack flex='1' alignSelf='center' ml='40px' spacing='20px'>
+        <AspectRatio
+          flex='1'
+          alignSelf='center'
+          w='100%'
+          maxW={{ base: 'none', xl: '560' }}
+          maxH={{ sm: '300', md: '415' }}
+          ratio={1}>
+          <iframe
+            title='naruto'
+            src='https://www.youtube.com/embed/gTEzqhYLwCI'
+            allowFullScreen
+          />
+        </AspectRatio>
+        <Stack mt={{ base: '40px', xl: '0px' }} direction={{ base: 'column', md: 'row', xl: 'column' }} flex='1' alignSelf='center' ml={{ base: '0px', xl: '40px' }} spacing='20px'>
           <Box>
             <H5>Sistema de telefonia VoIP</H5>
             <Text>A GoTo ajuda na conexão de quem quer adicionar recursos de VoIP ao sistema de telefonia atual ou de quem já tem tudo pronto para fazer a migração completa.</Text>

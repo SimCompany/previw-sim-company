@@ -135,8 +135,9 @@ export default function Home() {
             <H3>Uma solução. Diversas maneiras de permanecer conectado.</H3>
             <Text>Simples, seguro e ideal para o trabalho flexível, nosso sistema de telefonia em nuvem conta com reuniões e mensagens integradas.</Text>
             <HStack spacing={4}>
-              <Button>COMPRAR AGORA</Button>
-              <Button>SOLICITAR ORÇAMENTO</Button>
+              <ButtonChakra>
+                Acessar agora
+              </ButtonChakra>
             </HStack >
           </Box>
           <Box flex='1.5'>
