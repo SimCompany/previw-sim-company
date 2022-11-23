@@ -51,7 +51,7 @@ export default function Index() {
             </Link>
           </Box>
           <Box>
-            <H5>Nossos hardware</H5>
+            <H5>Nossos hardwares</H5>
             <Text>Nosso hardware de fácil configuração transforma qualquer espaço em uma sala de conferências totalmente conectada e funcional.</Text>
             <Link href='/produtos/comunicacao/hardware-para-conferencias'>
               <Flex alignItems='end' cursor='pointer' w='110px'>
@@ -90,7 +90,7 @@ export default function Index() {
         </Box>
         <Box>
           <Image src={ZeroTrust} />
-          <H5>Segurança <br />lider no setor</H5>
+          <H5>Segurança <br />líder no setor</H5>
         </Box>
         <Box>
           <Image src={Time} />
@@ -204,7 +204,7 @@ export default function Index() {
 
           <Text>A Sim Company nasceu para oferecer a melhor experiência em atendimento e para trazer mais
             praticidade para seu dia a dia.<br />
-            Somos uma empresa engajada em unir pessoas através da tecnologia, em um mundo cada vez mais
+            Somos uma empresa engajada em unir pessoas através da tecnologia em um mundo cada vez mais
             polarizado. Prezamos as necessidades individuais de cada empresa, seja ela pequena ou uma
             grande corporação.<br />
             Com uma equipe altamente qualificada, preparada para analisar suas necessidades e desenvolver

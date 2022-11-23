@@ -89,7 +89,7 @@ export default function Home() {
               description='Em nossos kits, você vai encontrar soluções robustas de câmera e áudio para melhorar a qualidade de som e eliminar o eco nas suas reuniões.'
             />
             <Information
-              title='Compativel com a tela dupla'
+              title='Compatível com a tela dupla'
               description='Use várias telas para espelhar o conteúdo ou dividir entre as câmeras da sessão e a tela compartilhada.'
             />
             {/*  <Information
@@ -116,7 +116,7 @@ export default function Home() {
           </Box>
           <Box>
             <Image src={ZeroTrust} />
-            <H5>Segurança <br />lider no setor</H5>
+            <H5>Segurança <br />líder no setor</H5>
           </Box>
           <Box>
             <Image src={Time} />
@@ -182,7 +182,7 @@ export default function Home() {
               </H2>
               <Text>
                 Comece a cortar custos desnecessários em sua empresa,
-                atualize a maneira que sua empresa se comunica!
+                atualize a maneira que sua empresa se comunica,
                 Gerenciamento de ramais com apenas 1 número, gravação
                 em nuvem e suporte para videoconferência integrada aos
                 melhores apps de chamada.

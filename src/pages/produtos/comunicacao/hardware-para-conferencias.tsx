@@ -109,14 +109,14 @@ export default function Comunicação() {
           flexDirection={{ base: 'column', lg: 'row' }}
           urlImage={Meeting}
         >
-          <H2 color='Blue.800' mb='4'>O GoTo Room funciona em qualquer lugar, do home office ás salas de reunião e da diretoria da empresa</H2>
+          <H3 color='Blue.800' mb='4'>O GoTo Room funciona em qualquer lugar, do home office ás salas de reunião e dadiretoria à empresa</H3>
           <Topics
             title='Kits feitos para salas de qualquer tamanho'
             description='Em nossos kits, você vai encontrar soluções robustas de câmera e áudio para melhorar a qualidade de som e eliminar o eco nas suas reuniões.'
           />
           <Topics
             mt='6'
-            title='Compativel com a tela dupla'
+            title='Compatível com a tela dupla'
             description='Use várias telas para espelhar o conteúdo ou dividir entre as câmeras da sessão e a tela compartilhada.'
           />
           <Topics
@@ -131,7 +131,7 @@ export default function Comunicação() {
           my={{ base: '50px', md: '85px' }}
           urlImage={ConenctMultPlataform}
         >
-          <H2 color='Blue.800' mb='4'>Aumente a produtividade com recursos práticos</H2>
+          <H3 color='Blue.800' mb='4'>Aumente a produtividade com recursos práticos</H3>
           <Topics
             title='Compatível com outras soluções de reunião '
             description='Conecte-se facilmente a clientes ou fornecedores que podem usar outro software de reunião. Com o GoTo Room, você se conecta as reuniões externas com apenas um toque.'

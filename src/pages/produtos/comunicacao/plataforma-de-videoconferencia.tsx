@@ -79,8 +79,7 @@ export default function PlataformaVideoconferencia() {
           <PresentationProduction
             urlImage={AudioQuality}
             title="Qualidade de áudio HD"
-            description="Use supressão de ruído de fundo e áudio integrado para VoIP e chamadas para dar aos participantes a melhor experiência de áudio possível.
-            t."
+            description="Use supressão de ruído de fundo e áudio integrado para VoIP e chamadas para dar aos participantes a melhor experiência de áudio possível."
           />
         </Grid>
 
@@ -181,7 +180,7 @@ export default function PlataformaVideoconferencia() {
               </ListItem>
               <ListItem>
                 <ListIcon as={MdCheckCircle} color='green.500' />
-                Moda em trânsito
+                Modo em trânsito
               </ListItem>
               <ListItem>
                 <ListIcon as={MdCheckCircle} color='green.500' />

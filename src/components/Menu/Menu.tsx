@@ -165,7 +165,7 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/'>Inicio</MenuItem>
+                    <MenuItem link='/'>Início</MenuItem>
                     <MenuItem link='/go-to'>Nova GoTo</MenuItem>
                     <MenuItem link='/contato'>Contato</MenuItem>
                   </Stack>

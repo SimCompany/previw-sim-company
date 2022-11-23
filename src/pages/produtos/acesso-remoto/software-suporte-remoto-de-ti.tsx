@@ -43,7 +43,7 @@ export default function SoftwareSuporteRemotoTI() {
               Software de suporte<br />
               remoto de TI que muda tudo
             </H1>
-            <Text color='White'>O GoTo Resolve é: suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança zero, que traz facilidade de uso e tranquilidade
+            <Text color='White'>O GoTo Resolve é: suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança, que traz facilidade de uso e tranquilidade
               como nenhuma outra ferramenta</Text>
             <ButtonChakra mt='6' px='10' py='8'>FALAR COM DEPARTAMENTO</ButtonChakra>
           </GridItem>
@@ -71,7 +71,7 @@ export default function SoftwareSuporteRemotoTI() {
             my={{ base: '14', md: '0' }}
             urlImage={SecurityComputer}
             title="Aumente a produtividade"
-            description="Recursos de otimização de tempo, como o acesso não supervisionado e o gerenciamento de várias sessões, permitem que agentes e colaboradores façam ainda mais."
+            description="Recursos de otimização de tempo, como o acesso não supervisionado e o gerenciamento de várias sessões permitem que agentes e colaboradores façam ainda mais."
           />
           <PresentationProduction
             urlImage={RemoteAccess}
@@ -104,7 +104,7 @@ export default function SoftwareSuporteRemotoTI() {
               'Modo de administração',
               'Transferência de arquivos',
               'Gerenciamento de várias sessões',
-              'muito mais...'
+              'e muito mais...'
             ]}
           />
         </DoubleGrid>
@@ -161,7 +161,7 @@ export default function SoftwareSuporteRemotoTI() {
               'Transport Layer Security (TLS)',
               'Controle de acesso com base em identidade conforme o modelo de confiança zero',
               'Autenticação multifator (MFA)',
-              'Logon único (SSO)',
+              'Login único (SSO)',
             ]}
           />
         </DoubleGrid>

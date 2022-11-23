@@ -65,7 +65,7 @@ export default function Pabx() {
         <Grid my={{ base: '50px', md: '85px' }} gridTemplateColumns={{ base: '1fr', md: '1fr 1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='5%' width='75%' mx='12.5%'>
           <PresentationProduction
             urlImage={Group04}
-            title="Fácil intalação e configuração"
+            title="Fácil instalação e configuração"
             description="Você ficará surpreso com a facilidade de instalação do sistema. Configure rapidamente todos os seus roteamentos de chamadas em um editor visual."
           />
           <PresentationProduction
@@ -109,7 +109,7 @@ export default function Pabx() {
           <Topics
             title="Desvio de chamadas e planos
             de discagem personalizáveis"
-            description='Crie seu próprio encaminhamento de chamadas e conte com PBX completo com editor de plano de discagem de arrastar e soltar. Com nosso sistema de telefonia virtual, é fácil fazer alterações onde quer que você esteja.'
+            description='Crie seu próprio encaminhamento de chamadas e conte com PABX completo com editor de plano de discagem de arrastar e soltar. Com nosso sistema de telefonia virtual, é fácil fazer alterações onde quer que você esteja.'
           />
         </DoubleGrid>
 
@@ -150,7 +150,7 @@ export default function Pabx() {
 
         <Track
           bgColor='#f0ef37'
-          title='Soluções de trabalho flexível compatíveis com
+          title='Soluções de trabalho flexíveis e compatíveis com
           qualquer aplicativo, em qualquer lugar'
           description="
           Participe de reuniões, chamadas pelo telefone, computador ou smartphone usando o aplicativo ou diretamente pelo navegador da Web.

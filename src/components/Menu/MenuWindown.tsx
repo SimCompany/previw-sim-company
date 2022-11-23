@@ -5,7 +5,7 @@ import MenuItem from "./MenuItem";
 
 
 export default function MenuWindown(CloseMenu: any) {
-  
+
   const { isOpen, onClose, onToggle } = useDisclosure()
 
   function HoverHome() {
@@ -46,7 +46,7 @@ export default function MenuWindown(CloseMenu: any) {
       <Stack spacing={4} justifyContent='center' flexDirection='column'>
         <Box>
           <MenuItem link='/' fontSize='3xl' onMouseEnter={HoverHome}>
-            Inicio
+            Início
           </MenuItem>
         </Box>
         <Box>

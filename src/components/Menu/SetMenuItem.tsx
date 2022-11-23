@@ -9,14 +9,11 @@ interface SetMenuItemProps extends StackProps {
 
 export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
 
-  // function RotateArrow(){
-  //   const 
-  // }
 
   return (
     <Stack w='100%' {...rest}>
       <MenuItem link='/' >
-        Inicio
+        Início
       </MenuItem>
       <MenuItem link='/go-to' >
         Nova GoTo
