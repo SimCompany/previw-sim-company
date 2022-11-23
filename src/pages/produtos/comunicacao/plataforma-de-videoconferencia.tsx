@@ -42,14 +42,14 @@ export default function PlataformaVideoconferencia() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize='4xl' color='White' fontWeight='extrabold' >
+            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }} color='White' fontWeight='extrabold' >
               reuniões online simplificado
               com a segurança das
               grandes empresas
             </H1>
             <Text color='White'>Software de reuniões online simplificado com a segurança das grandes
               empresas, liberdade e praticidade.</Text>
-            <ButtonChakra mt='6' px='10' py='8'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            <ButtonChakra mt='6' px={{ base: '6', sm: '10' }} py={{ base: '6', sm: '8' }}>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
           </GridItem>
           <GridItem>
 

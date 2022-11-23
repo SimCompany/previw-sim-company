@@ -83,7 +83,7 @@ export default function Pabx() {
 
 
 
-        <Flex flexDirection='column' alignItems='center'>
+        <Flex flexDirection='column' alignItems='center' textAlign='center'>
           <H3 mb='20px'>Solicite um orçamento com a Sim Company</H3>
           <ButtonChakra px='60px' py='24px'>Fazer um orçamento</ButtonChakra>
         </Flex>

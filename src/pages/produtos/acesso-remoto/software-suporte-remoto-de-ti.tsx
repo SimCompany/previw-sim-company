@@ -39,13 +39,13 @@ export default function SoftwareSuporteRemotoTI() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize='4xl' color='White' fontWeight='extrabold' >
+            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }} color='White' fontWeight='extrabold' >
               Software de suporte<br />
               remoto de TI que muda tudo
             </H1>
             <Text color='White'>O GoTo Resolve é: suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança, que traz facilidade de uso e tranquilidade
               como nenhuma outra ferramenta</Text>
-            <ButtonChakra mt='6' px='10' py='8'>FALAR COM DEPARTAMENTO</ButtonChakra>
+            <ButtonChakra mt='6' px={{ base: '6', sm: '10' }} py='8'>FALAR COM DEPARTAMENTO</ButtonChakra>
           </GridItem>
           <GridItem>
 
@@ -80,7 +80,7 @@ export default function SoftwareSuporteRemotoTI() {
           />
         </Grid>
 
-        <Flex flexDirection='column' alignItems='center'>
+        <Flex mx='5%' flexDirection='column' alignItems='center'>
           <H3 textAlign={{ base: 'center' }} mb='20px'>
             O GoTo Resolve cria mais possibilidades<br />
             para equipes internas e remotas
@@ -92,7 +92,7 @@ export default function SoftwareSuporteRemotoTI() {
           my={{ base: '50px', md: '85px' }}
           flexDirection={{ base: 'column', lg: 'row-reverse' }}
           urlImage={Acc1}
-          textAlign={{ base: 'center', lg: "end" }}
+          textAlign={{ base: 'start', lg: "end" }}
         >
           <Topics
             mt='6'
@@ -134,7 +134,7 @@ export default function SoftwareSuporteRemotoTI() {
           my={{ base: '50px', md: '85px' }}
           flexDirection={{ base: 'column', lg: 'row-reverse' }}
           urlImage={Acc3}
-          textAlign={{ base: 'center', lg: "end" }}
+          textAlign={{ base: 'start', lg: "end" }}
         >
           <Topics
             title='Geração de tíquetes conversacionais'

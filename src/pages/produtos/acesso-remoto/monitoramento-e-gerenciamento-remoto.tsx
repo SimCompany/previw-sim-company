@@ -96,24 +96,25 @@ export default function AutomatizeTarefas() {
           />
         </DoubleGrid>
 
-        <Flex px='10%' bgColor='#f0ef37' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
-            <Text fontSize='3xl'>
-              Gostaria de saber quanto custaria essa solução?<br />
-              Realize uma cotação sem compromisso
-            </Text>
-            <Button mt='4' color='Blue.800'>
-              Realizar cotação
-            </Button>
-          </Flex>
+        <Flex px='10%' bgColor='#f0ef37' mt={{ base: '50px', sm: '125px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+          <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+            Gostaria de saber quanto custaria essa solução?<br />
+            Realize uma cotação sem compromisso
+          </Text>
+          <Button mt='4' color='Blue.800'>
+            Realizar cotação
+          </Button>
+        </Flex>
 
         <Text
-          fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}
+          fontSize='3xl'
           letterSpacing={0}
           fontWeight='bold'
           textAlign='center'
           my={{ base: '50px', lg: '100px' }}
+          mx={{ base: '5%' }}
           color='Blue.800'
-          >Confira mais vantagens</Text>
+        >Confira mais vantagens</Text>
 
         <Grid
           px='10%'

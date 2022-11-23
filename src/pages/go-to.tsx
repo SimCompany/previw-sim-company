@@ -50,9 +50,9 @@ export default function GoTo() {
 
         <Grid
           w='100%'
-          maxW={{ sm: '90%', lg: '80%', xl: '80%', '2xl': '70%' }}
-          mx={{ sm: '5%', lg: '10%', xl: '10%', '2xl': '15%' }}
-          mt='200px'
+          maxW={{ base: '90%', lg: '80%', xl: '80%', '2xl': '70%' }}
+          mx={{ base: '5%', lg: '10%', xl: '10%', '2xl': '15%' }}
+          mt={{ base: '100px', lg: '200px' }}
           gridTemplateColumns={{ base: '1fr', md: '1fr 1fr' }}
           textAlign={{ base: 'center', md: 'start' }}
           gridColumnGap='5%'
@@ -63,7 +63,7 @@ export default function GoTo() {
               <Image src={Work} />
             </Box>
             <Box
-              left={{ sm: '-5%', lg: '-10%', xl: '-10%', '2xl': '-15%' }}
+              left={{ base: '-40%', lg: '-10%', xl: '-10%', '2xl': '-15%' }}
               top='-40vh'
               position='absolute'
               zIndex='-100'>
@@ -121,7 +121,7 @@ export default function GoTo() {
           gridTemplateColumns={{ base: '1fr', md: '1fr 1fr' }}
           textAlign={{ base: 'center', md: 'start' }}
           gridRowGap='5%'
-          px={{ sm: '5%', lg: '10%', xl: '10%', '2xl': '15%' }}
+          px={{ base: '5%', lg: '10%', xl: '10%', '2xl': '15%' }}
         >
           <Box alignSelf='center'>
             <H5>A tecnologia que faz o seu trabalho render.</H5>

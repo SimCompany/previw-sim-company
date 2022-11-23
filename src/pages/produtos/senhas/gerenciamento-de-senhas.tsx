@@ -65,7 +65,7 @@ export default function GerenciamentoDeSenhas() {
             description='Salve a senha uma vez e ela ficará disponível imediatamente em todos os seus dispositivos. Com o Premium, o LastPass está sempre com você, em todos os seus dispositivos.'
           />
         </DoubleGrid>
-        
+
 
         <Grid
           px='10%'
@@ -106,9 +106,11 @@ export default function GerenciamentoDeSenhas() {
           flexDirection='column'
           textAlign='center'
           alignItems='center'
-          my='100px'>
+          my='100px'
+          mx='5'
+          >
           <H3
-            fontSize='3xl'
+            fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}
           >
             O LastPass conta com a confiança de<br />
             especialistas do mundo todo

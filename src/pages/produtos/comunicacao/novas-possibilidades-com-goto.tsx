@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Grid, HStack, Text, useBreakpointValue, useDisclosure } from "@chakra-ui/react";
+import { AspectRatio, Box, Button, Flex, Grid, HStack, Stack, Text, useBreakpointValue, useDisclosure } from "@chakra-ui/react";
 import Image from 'next/image'
 
 import H2 from "../../../components/Texts/H2";
@@ -42,8 +42,7 @@ export default function Home() {
           bgPosition='center'
           bgRepeat='no-repeat'
           bgSize='cover'
-          gridTemplateColumns='60% 40%'
-
+          gridTemplateColumns={{ base: '1fr', md: '60% 40%' }}
         >
           <Box
             backdropFilter="blur(5px)"
@@ -51,9 +50,9 @@ export default function Home() {
             justifyContent='center'
             alignItems='start'
             flexDirection='column'
-            px='15%'
+            px={{ base: '5%', md: '15%' }}
           >
-            <H1 fontSize='5xl' fontWeight='bold' color='white' lineHeight='1.3'>
+            <H1 fontSize={{ base: '2xl', sm: '3xl', lg: '5xl' }} fontWeight='bold' color='white' lineHeight='1.3'>
               Descubra o poder que<br />
               sua empresa pode ter<br />
               com a GoTo
@@ -67,19 +66,25 @@ export default function Home() {
 
 
         <Grid
-          my={{ base: '200px' }}
+          my={{ base: '100px', lg: '200px' }}
           gridTemplateColumns={{ sm: '1fr', md: '1fr', lg: '1fr 1fr', xl: '1fr 1fr' }}
           maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}
           mx={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
           gridColumnGap='5%'>
           <Box>
             {/* <FormElement /> */}
-            <Box>
+            <AspectRatio
+              flex='1'
+              alignSelf='center'
+              w='100%'
+              maxW={{ base: 'none', xl: '560' }}
+              maxH={{ sm: '300', md: '415' }}
+              ratio={1}>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/AeYqEx5NmCE" title="YouTube video player"
                 frameBorder="0"
 
                 allowFullScreen />
-            </Box>
+            </AspectRatio>
 
           </Box>
           <Box alignSelf='center'>
@@ -92,15 +97,11 @@ export default function Home() {
               title='Compatível com a tela dupla'
               description='Use várias telas para espelhar o conteúdo ou dividir entre as câmeras da sessão e a tela compartilhada.'
             />
-            {/*  <Information
-      title='Sincronize salas com o centro de Administração GoTo'
-      description='O GoTo Room é adicionado automaticamente ao seu centro de Administração GoTo para agilizar o gerenciamento de todas as suas salas.'
-    /> */}
           </Box>
         </Grid>
 
 
-        <HStack
+        <Stack
           // maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}
           px={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
           py='50px'
@@ -108,6 +109,8 @@ export default function Home() {
           mb='150px'
           justifyContent='space-around'
           textAlign='center'
+          spacing={12}
+          direction={{ base: 'column', md: 'row' }}
         >
 
           <Box>
@@ -122,20 +125,23 @@ export default function Home() {
             <Image src={Time} />
             <H5>Tempo de atividade <br />imbatível</H5>
           </Box>
-        </HStack>
+        </Stack>
 
         <Flex
           mx={{ base: '5%', sm: '5%', md: '7.5%', lg: '10%', xl: '10%' }}
           maxW={{ base: '90%', sm: '90%', md: '85%', lg: '80%', xl: '80%' }}
-          my='50px'>
+          my='50px'
+          flexDirection={{ base: 'column-reverse', md: 'row' }}
+        >
 
           <Box
             flex='1'
-            alignSelf='center'>
+            alignSelf='center'
+            mt={{ base: '40px', md: '0px' }}>
             <H3>Uma solução. Diversas maneiras de permanecer conectado.</H3>
             <Text>Simples, seguro e ideal para o trabalho flexível, nosso sistema de telefonia em nuvem conta com reuniões e mensagens integradas.</Text>
             <HStack spacing={4}>
-              <ButtonChakra>
+              <ButtonChakra mt='4' w={{ base: '100%', md: 'auto' }}>
                 Acessar agora
               </ButtonChakra>
             </HStack >
