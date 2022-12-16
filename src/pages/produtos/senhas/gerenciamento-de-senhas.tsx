@@ -1,6 +1,7 @@
 import { Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import ButtonChakra from "../../../components/Button/Button";
+import { ButtonForm } from "../../../components/ButtonForm";
 import Topics from "../../../components/Information/Topics";
 import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
 import Track from "../../../components/ProdutosPage/track";
@@ -42,7 +43,7 @@ export default function GerenciamentoDeSenhas() {
               Agora, a vida é online: o trabalho, a diversão, o contato com a família e os amigos...
               O LastPass coloca sua vida digital na palma das suas mãos, de um jeito simples e seguro.
             </Text>
-            <ButtonChakra mt='6' px='8' py='6'>Fazer meu pedido</ButtonChakra>
+            <ButtonChakra link='#contact' mt='6' px='8' py='6'>Fazer meu pedido</ButtonChakra>
           </GridItem>
           <GridItem>
           </GridItem>
@@ -108,7 +109,8 @@ export default function GerenciamentoDeSenhas() {
           alignItems='center'
           my='100px'
           mx='5'
-          >
+          id="contact"
+        >
           <H3
             fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}
           >
@@ -119,7 +121,9 @@ export default function GerenciamentoDeSenhas() {
             Você merece o que há de melhor em segurança. Com o LastPass, suas informações<br />
             ficam guardadas, seguras e escondidas (nem nós temos acesso a elas).
           </Text>
-          <ButtonChakra mt='6' px='8' py='6'>Fazer meu pedido</ButtonChakra>
+          <ButtonForm mt='5' maxW={{ base: '90%', md: '40%' }}>
+            Solicitar cotação
+          </ButtonForm>
         </Flex>
       </main>
     </>

@@ -18,6 +18,8 @@ import AudioQuality from './../../../img/plataforma-de-videoconferência/qualida
 import Call from './../../../img/plataforma-de-videoconferência/conferencia-online.jpg'
 import Conect from './../../../img/plataforma-de-videoconferência/conexão-mundial.jpg'
 import H5 from "../../../components/Texts/H5";
+import Link from "next/link";
+import { ButtonForm } from "../../../components/ButtonForm";
 
 
 
@@ -49,7 +51,9 @@ export default function PlataformaVideoconferencia() {
             </H1>
             <Text color='White'>Software de reuniões online simplificado com a segurança das grandes
               empresas, liberdade e praticidade.</Text>
-            <ButtonChakra mt='6' px={{ base: '6', sm: '10' }} py={{ base: '6', sm: '8' }}>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+              <ButtonForm mt='4'>
+                Solicitar orçamento
+              </ButtonForm>
           </GridItem>
           <GridItem>
 
@@ -86,7 +90,9 @@ export default function PlataformaVideoconferencia() {
 
         <Flex flexDirection='column' alignItems='center'>
           <H3 textAlign={{ base: 'center' }} mb='20px'>Solicite um orçamento com a Sim Company</H3>
-          <ButtonChakra px='60px' py='24px'>Fazer um orçamento</ButtonChakra>
+          <ButtonForm maxW='30%'>
+            Solicitar orçamento
+          </ButtonForm>
         </Flex>
 
 

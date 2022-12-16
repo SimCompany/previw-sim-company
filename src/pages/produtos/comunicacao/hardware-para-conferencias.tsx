@@ -17,6 +17,7 @@ import KitGoToRom from './../../../img/comunicacao/kit-goto-room-sim-company.png
 import Logitech from './../../../img/comunicacao/logitech-sim-company-venda.jpg'
 import PasswordSystem from './../../../img/comunicacao/sistema-de-senha.png'
 import Meeting from './../../../img/comunicacao/meeting.svg'
+import { ButtonForm } from "../../../components/ButtonForm";
 
 
 
@@ -46,7 +47,7 @@ export default function Comunicação() {
               Configure em minutos, faça reuniões em segundos
             </H1>
             <Text color='White'>O GoTo Room oferece equipamentos de videoconferência intuitivos e econômicos que ajudam a descomplicar as reuniões.</Text>
-            <ButtonChakra mt='6' px='10' py='8'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            <ButtonChakra link='#contact' mt='6' px='10' py='8'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
           </GridItem>
           <GridItem>
 
@@ -161,14 +162,22 @@ export default function Comunicação() {
         />
 
 
-        <Grid my={{ base: '50px', md: '85px' }} mx='10%' w='80%' gridTemplateColumns={{ base: '1fr', lg: '1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='10%'>
-          <GridItem mb={{ base: '20' }} justifyContent={{ base: 'center', lg: 'flex-start' }} display='flex' flexDirection='column' textAlign='center'>
+        <Grid
+          id='contact'
+          my={{ base: '50px', md: '85px' }}
+          mx='10%' w='80%'
+          gridTemplateColumns={{ base: '1fr', lg: '1fr 1fr' }}
+          gridTemplateRows='1fr'
+          gridColumnGap='10%'>
+          <GridItem mb={{ base: '20' }} display='flex' flexDirection='column' textAlign='center'>
 
             <H3 mt='35'>Mensal Flexível</H3>
             <Text>Novo: O preço mensal flexível do GoTo Room permite que os clientes financiem uma solução de sala de vídeo por uma taxa mensal baixa que cabe em qualquer orçamento. Escolha seu kit e seu modelo de financiamento preferido de 1, 2 ou 3 anos, e comece hoje mesmo.</Text>
 
-            <Text mt='10'> Solicite um orçamento personalizado hoje mesmo!</Text>
-            <ButtonChakra py='6' mt='16'>Solicitar orçamento</ButtonChakra>
+            <Text my='10'> Solicite um orçamento personalizado hoje mesmo!</Text>
+            <ButtonForm plane='Mensal Flexível'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
 
           <GridItem justifyContent={{ base: 'center', lg: 'flex-start' }} display='flex' flexDirection='column' textAlign='center'>
@@ -176,8 +185,10 @@ export default function Comunicação() {
             <H3 mt='35'>Compra padrão</H3>
             <Text>Adquira uma das nossas mais de 10 ofertas do GoTo Room e tenha tudo pronto para suas reuniões em questão de minutos. Os melhores preços do setor e as opções de várias salas ajudam nossos clientes a economizar muito.</Text>
 
-            <Text mt='10'> Solicite um orçamento personalizado hoje mesmo!</Text>
-            <ButtonChakra py='6' mt='16'>Solicitar orçamento</ButtonChakra>
+            <Text my='10'> Solicite um orçamento personalizado hoje mesmo!</Text>
+            <ButtonForm plane='Compra padrão'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
         </Grid>
 

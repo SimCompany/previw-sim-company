@@ -122,11 +122,18 @@ export default function Menu() {
           <Logo w='60px' />
         </Flex>
 
+
+
         <HStack spacing='4'>
-          <Icon fontSize='30px' as={AiOutlineLinkedin} />
-          <Icon fontSize='24px' as={GrInstagram} />
+          <Link href='https://www.linkedin.com/company/sim-company/'>
+            <Icon fontSize='30px' as={AiOutlineLinkedin} />
+          </Link>
+          <Link href='https://www.instagram.com/sim.company/'>
+            <Icon fontSize='24px' as={GrInstagram} />
+          </Link>
+{/* 
           <Icon fontSize='29px' as={RiFacebookCircleLine} />
-          <Icon fontSize='24px' as={SiWhatsapp} />
+          <Icon fontSize='24px' as={SiWhatsapp} /> */}
         </HStack>
 
       </Flex>
@@ -180,11 +187,11 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/comunicacao/comunicacao-em-nuvem'>Comunicação em nuvem</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/hardware-para-conferencias'>Hardware para conferências</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/call-center-em-nuvem'>Call Center em nuvem</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/plataforma-de-videoconferencia'>Plataforma de videoconferência</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/plataforma-para-eventos-virtuais'>Plataforma para eventos virtuais</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/comunicacao-em-nuvem'>GoTo Connect</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/hardware-para-conferencias'>GoTo Room</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/call-center-em-nuvem'>GoTo Contact Center</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/plataforma-de-videoconferencia'>GoTo Meeting</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/plataforma-para-eventos-virtuais'>GoTo Webinar</MenuItem>
                     <MenuItem link='/produtos/comunicacao/novas-possibilidades-com-goto'>Novas possibilidades com GoTo</MenuItem>
                   </Stack>
                 </Box>
@@ -198,9 +205,11 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>Monitoramentos e gerenciamentos remotos</MenuItem>
-                    <MenuItem link='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>Suporte remoto de ti</MenuItem>
-                    <MenuItem link='/produtos/acesso-remoto/ti-remoto'>TI remoto</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>Central</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/goto-my-pc'>GoTo My Pc</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/pro'>Pro</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>GoTo Resolve</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/ti-remoto'>Rescue</MenuItem>
                   </Stack>
                 </Box>
 
@@ -213,8 +222,8 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>Gerenciamento bissnes</MenuItem>
-                    <MenuItem link=''>Gerenciamento para empresas</MenuItem>
+                    <MenuItem link='/produtos/senhas/lastpass-busines'>LastPass busines</MenuItem>
+                    <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>LastPass pessoal</MenuItem>
                   </Stack>
                 </Box>
               </Stack>

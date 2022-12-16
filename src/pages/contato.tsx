@@ -38,7 +38,7 @@ export default function Contato() {
           margin={{ base: '5%', md: '10%', lg: '10%', '2xl': '15%' }}
           templateColumns={{ base: '1fr', lg: '1fr 1fr' }}
           position='absolute'
-          bottom={{ base: '850px', sm: '550px', md: '500px', lg: '250px', '2xl': '200px' }}
+          bottom={{ base: '850px', sm: '550px', md: '500px', lg: '350px', '2xl': '200px' }}
         >
           <Box
             mr={{ base: '0px', lg: '10%' }}
@@ -51,12 +51,13 @@ export default function Contato() {
               }
             >Gostaria de falar com nossa equipe tecnica ?</H2>
             <Text color='white'>(11) 5039-9046</Text>
-            <Text color='white'>contato@simcompany.com</Text>
+            <Text color='white'>contato@simcompany.com.br</Text>
+            <Text color='white'>R. Aureliano Guimarães, 172 – Sala 1015 / 1016  - Vila Andrade, São Paulo - SP,  CEP: 05727-160, Brasil</Text>
 
             <Text color='white' mt={{ base: '0px', lg: '40px' }}>Endereço: Rua Direita N°7 - SP CEP 7777-077</Text>
 
             <Box h={{ base: '200px', sm: '350px' }} mt={{ sm: '15px', md: '25' }}>
-              <iframe style={{ width: '100%', height: '100%' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7309.026665820644!2d-46.75947564816283!3d-23.657593744676134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53c6a003d321%3A0xab6c3d1dba73f4ec!2sCondom%C3%ADnio%20Conjunto%20Residencial%20Buena%20Vista!5e0!3m2!1spt-BR!2sbr!4v1661659201239!5m2!1spt-BR!2sbr" loading="lazy"></iframe>
+              <iframe style={{ width: '100%', height: '100%' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1292.3542763526382!2d-46.737886844822775!3d-23.62835407402872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce514fd94b8c63%3A0x6ce93bc344899af!2sR.%20Aureliano%20Guimar%C3%A3es%20-%20Vila%20Andrade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005727-160!5e0!3m2!1spt-BR!2sbr!4v1671191556834!5m2!1spt-BR!2sbr" loading="lazy"></iframe>
             </Box>
           </Box>
           <Box

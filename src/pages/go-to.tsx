@@ -14,6 +14,7 @@ import Work from '../img/go-to/work-remote.jpg'
 import Fundo from '../img/go-to/corner-light.svg'
 import cafe from '../img/go-to/cafe-contemplation-p-800.jpeg'
 import Yellow from '../img/go-to/corner-bottom.svg'
+import Link from "next/link";
 
 export default function GoTo() {
 
@@ -101,16 +102,20 @@ export default function GoTo() {
           <Box bgColor='#FFE801' p='8'>
             <H3 my='2'>GoTo Resolve</H3>
             <Text>Acesso, suporte e geração de tickets — tudo remoto a partir de uma única solução.</Text>
-            <ButtonChakra mt='4' bgColor='#D9E6EC' p='8' fontWeight='semibold'>
-              Saiba mais sobre o<br /> GoTo Resolve
-            </ButtonChakra>
+            <Link href='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>
+              <ButtonChakra mt='4' bgColor='#D9E6EC' p='8' fontWeight='semibold'>
+                Saiba mais sobre o<br /> GoTo Resolve
+              </ButtonChakra>
+            </Link>
           </Box>
           <Box bgColor='#FFE801' p='8'>
             <H3>GoTo Contact</H3>
             <Text>Solução de contact center para sua empresa assumir o controle da fila de chamadas instantaneamente.</Text>
-            <ButtonChakra mt='4' bgColor='#D9E6EC' p='8' fontWeight='semibold'>
-              Saiba mais sobre o<br /> GoTo Contact
-            </ButtonChakra>
+            <Link href='/produtos/comunicacao/call-center-em-nuvem'>
+              <ButtonChakra mt='4' bgColor='#D9E6EC' p='8' fontWeight='semibold'>
+                Saiba mais sobre o<br /> GoTo Contact
+              </ButtonChakra>
+            </Link>
           </Box>
         </Grid>
 

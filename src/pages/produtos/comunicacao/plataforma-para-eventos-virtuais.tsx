@@ -11,6 +11,7 @@ import H1 from "../../../components/Texts/H1";
 import webinarGraphic from './../../../img/plataforma-para-eventos/grafico-webinar.jpg'
 import DashboardWebinar from './../../../img/plataforma-para-eventos/dashboard-webinar.jpg'
 import ModelWebinar from './../../../img/plataforma-para-eventos/modelo-webinar.jpg'
+import { ButtonForm } from "../../../components/ButtonForm";
 
 export default function Pabx() {
 
@@ -40,7 +41,9 @@ export default function Pabx() {
             </H1>
             <Text color='white'>Organize treinamentos e eventos híbridos para empresa, de
               demonstrações de produto pré-gravadas a conferências de vários dias</Text>
-            <ButtonChakra mt='6' p={{ base: '6', xl: '8' }}>Falar com departamento</ButtonChakra>
+            <ButtonForm mt='6'>
+              Solicitar Orçamento
+            </ButtonForm>
           </GridItem>
           <GridItem>
 

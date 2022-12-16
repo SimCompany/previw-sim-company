@@ -16,6 +16,9 @@ import Center from './../../../img/atendimento/rum03.jpg'
 import dashboard from './../../../img/atendimento/dashboard.jpg'
 import CalPlay from './../../../img/atendimento/Ti-sem-complicação.jpg'
 import KitGoToRom from './../../../img/atendimento/rápida-instalação.jpg'
+import Link from "next/link";
+import FormButton from "../../../components/ButtonForm/FormButton";
+import { ButtonForm } from "../../../components/ButtonForm";
 
 
 
@@ -47,19 +50,18 @@ export default function Comunicação() {
             </H1>
             <Text color='white'>Ofereça melhores experiências ao cliente e aumente a receita com uma
               solução de call center em nuvem para pequenas e médias empresas.</Text>
-            <ButtonChakra mt='6' px='8' py='6'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            <Link href='#contact'>
+              <ButtonChakra mt='6' px='10' py='7'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            </Link>
           </GridItem>
           <GridItem>
 
           </GridItem>
         </Grid>
 
-
         <Track bgColor='Green.300'
           title='Central de atendimento que trabalha em sincronia com você'
         />
-
-
 
         <Grid my={{ base: '50px', md: '85px' }} gridTemplateColumns={{ base: '1fr', md: '1fr 1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='7.5%' width='75%' mx='12.5%'>
           <PresentationProduction
@@ -80,10 +82,11 @@ export default function Comunicação() {
           />
         </Grid>
 
-
         <Flex flexDirection='column' alignItems='center'>
           <H3 textAlign={{ base: 'center' }}>Solicite um orçamento com a Sim Company</H3>
-          <ButtonChakra px='40px' py='18px' mt='2'>Fazer um orçamento</ButtonChakra>
+          <Link href='#contact'>
+            <ButtonChakra px='40px' py='26px' mt='2'>Fazer um orçamento</ButtonChakra>
+          </Link>
         </Flex>
 
 
@@ -200,7 +203,7 @@ export default function Comunicação() {
         />
 
 
-        <Grid mx='10%' w='80%' gridTemplateColumns={{ base: '1fr', lg: '1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='10%'>
+        <Grid id='contact' mx='10%' w='80%' gridTemplateColumns={{ base: '1fr', lg: '1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='10%'>
           <GridItem mb={{ base: '50', lg: '20' }} h='400px' justifyContent={{ base: 'center', lg: 'space-around' }} display='flex' flexDirection='column' textAlign='start'>
             <H3>Core</H3>
             <Text my='-8px'>A partir de...</Text>
@@ -210,7 +213,9 @@ export default function Comunicação() {
               relatórios padrão.</Text>
 
             <Text mt='10' as='b'> /usuário por mês, cobrança anual</Text>
-            <ButtonChakra py='6' mt='16'>Solicitar orçamento</ButtonChakra>
+            <ButtonForm plane='core'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
 
           <GridItem h='400px' justifyContent={{ base: 'center', lg: 'space-around' }} display='flex' flexDirection='column' textAlign='start'>
@@ -221,7 +226,9 @@ export default function Comunicação() {
               funcionalidades de gerenciamento.</Text>
 
             <Text mt='10' as='b'> /usuário/mês, cobrança anual</Text>
-            <ButtonChakra py='6' mt='16'>Solicitar orçamento</ButtonChakra>
+            <ButtonForm plane='completo'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
         </Grid>
 

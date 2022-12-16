@@ -1,6 +1,7 @@
 import { Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import ButtonChakra from "../../../components/Button/Button";
+import { ButtonForm } from "../../../components/ButtonForm";
 import Topics from "../../../components/Information/Topics";
 import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
 import PresentationProduction from "../../../components/ProdutosPage/PresentationProduction";
@@ -48,7 +49,7 @@ export default function Pabx() {
               Sistema completo e flexível que atende as suas necessidades diárias,
               Telefonia em nuvem com sistema integrado de reuniões e mensagens.
             </Text>
-            <ButtonChakra mt='6' px='10' py='8'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            <ButtonChakra link='#contact' mt='6' px='10' py='8'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
           </GridItem>
           <GridItem>
 
@@ -85,7 +86,7 @@ export default function Pabx() {
 
         <Flex flexDirection='column' alignItems='center' textAlign='center'>
           <H3 mb='20px'>Solicite um orçamento com a Sim Company</H3>
-          <ButtonChakra px='60px' py='24px'>Fazer um orçamento</ButtonChakra>
+          <ButtonChakra link='#contact' px='60px' py='24px'>Fazer um orçamento</ButtonChakra>
         </Flex>
 
         <DoubleGrid
@@ -158,7 +159,9 @@ export default function Pabx() {
         />
 
 
-        <Grid my={{ base: '50px', md: '85px' }} mx='10%' w='80%' gridTemplateColumns={{ base: '1fr', lg: '1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='10%'>
+        <Grid
+          id='contact'
+          my={{ base: '50px', md: '85px' }} mx='10%' w='80%' gridTemplateColumns={{ base: '1fr', lg: '1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='10%'>
           <GridItem justifyContent={{ base: 'space-around' }} display='flex' flexDirection='column' h='400px' textAlign={{ base: 'center', lg: 'start' }}>
 
             <H3 mt='20px'>Mensal Flexível</H3>
@@ -166,7 +169,9 @@ export default function Pabx() {
 
             <Text>*Inclui uma licença do GoTo Room, equipamento
               para a sala e uma garantia de hardware de longo prazo.</Text>
-            <ButtonChakra py='6' mt='16'>Solicitar orçamento</ButtonChakra>
+            <ButtonForm plane='mensal flexível'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
 
           <GridItem justifyContent={{ base: 'space-around' }} display='flex' flexDirection='column' h='400px' textAlign={{ base: 'center', lg: 'start' }}>
@@ -174,7 +179,9 @@ export default function Pabx() {
             <Text>Adquira uma das nossas mais de 10 ofertas do GoTo Room e tenha tudo pronto para suas reuniões em questão de minutos. Os melhores preços do setor e as opções de várias salas ajudam nossos clientes a economizar muito.</Text>
 
             <Text> Solicite um orçamento personalizado hoje mesmo!</Text>
-            <ButtonChakra py='6' mt='16'>Solicitar orçamento</ButtonChakra>
+            <ButtonForm plane='compra padrão'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
         </Grid>
 

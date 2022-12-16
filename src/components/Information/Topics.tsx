@@ -3,7 +3,7 @@ import H5 from "../Texts/H5"
 
 interface InfromationType extends TextProps {
   title?: string,
-  description: string
+  description?: string
   paragraphPosition?: any
   topics?: string[]
 }
@@ -20,7 +20,7 @@ export default function Topics({ title, description, paragraphPosition, topics, 
         <Box mt='2'>
           {topics.map((item: string, index: number) => {
             return (
-              <Text  key={index}>
+              <Text mt='2' key={index}>
                 {item}
               </Text>
             )

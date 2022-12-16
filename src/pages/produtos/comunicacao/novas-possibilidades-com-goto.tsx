@@ -16,6 +16,7 @@ import GoHero from './../../../img/pabx-em-nuvem/go-hero.png'
 import H5 from "../../../components/Texts/H5";
 import ButtonChakra from "../../../components/Button/Button";
 import Head from "next/head";
+import { ButtonForm } from "../../../components/ButtonForm";
 
 
 
@@ -57,7 +58,7 @@ export default function Home() {
               sua empresa pode ter<br />
               com a GoTo
             </H1>
-            <ButtonChakra px='60px' mt='6'>
+            <ButtonChakra link='#contact' px='60px' py={{ base: '6', md: '8' }} mt='6'>
               Saiba mais
             </ButtonChakra>
           </Box>
@@ -141,7 +142,7 @@ export default function Home() {
             <H3>Uma solução. Diversas maneiras de permanecer conectado.</H3>
             <Text>Simples, seguro e ideal para o trabalho flexível, nosso sistema de telefonia em nuvem conta com reuniões e mensagens integradas.</Text>
             <HStack spacing={4}>
-              <ButtonChakra mt='4' w={{ base: '100%', md: 'auto' }}>
+              <ButtonChakra link='#contact' mt='4' w={{ base: '100%', md: 'auto' }}>
                 Acessar agora
               </ButtonChakra>
             </HStack >
@@ -199,14 +200,14 @@ export default function Home() {
             </Box>
           </Grid>
 
-          <Flex px='10%' bgColor='#f0ef37' mb='-50px' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+          <Flex id='contact' px='10%' bgColor='#f0ef37' mb='-50px' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
             <Text fontSize='3xl'>
               Gostaria de saber quanto custaria essa solução?<br />
               Realize uma cotação sem compromisso
             </Text>
-            <Button mt='4' color='Blue.800'>
+            <ButtonForm maxW='40%' bgColor='Blue.800' color='white' mt='10'>
               Realizar cotação
-            </Button>
+            </ButtonForm>
           </Flex>
         </Box>
       </main >

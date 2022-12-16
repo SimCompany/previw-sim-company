@@ -1,5 +1,6 @@
 import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
+import { ButtonForm } from "../../../components/ButtonForm";
 import ButtonChakra from "./../../../components/Button/Button";
 import Topics from "./../../../components/Information/Topics";
 import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
@@ -7,10 +8,10 @@ import Track from "./../../../components/ProdutosPage/track";
 import H1 from "./../../../components/Texts/H1";
 import H3 from "./../../../components/Texts/H3";
 
-import Data from './../../../img/atendimento/rum02.jpg'
-import Center from './../../../img/atendimento/rum03.jpg'
 
-import dashboard from './../../../img/atendimento/dashboard.jpg'
+import Data from './../../../img/central/chamadas-s1.jpg'
+import dashboard from './../../../img/central/chamadas-s2.jpg'
+import Center from './../../../img/central/chamadas-s3.jpg'
 
 
 
@@ -44,13 +45,15 @@ export default function AutomatizeTarefas() {
             <Text color='white'>
               Proteja sua empresa com a gestão de terminais e segurança para empresas.
             </Text>
-            <ButtonChakra mt='6' px='8' py='6'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            <ButtonChakra link='#contact' mt='6' px='8' py={{ base: '6', md: '8' }}>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
           </GridItem>
           <GridItem>
           </GridItem>
         </Grid>
 
-        <Track bgColor='Green.300'
+        <Track
+          mb='100px'
+          bgColor='Green.300'
           title='Automatize tarefas de rotina e estimule
           o desenvolvimento da sua empresa'
         />
@@ -96,14 +99,20 @@ export default function AutomatizeTarefas() {
           />
         </DoubleGrid>
 
-        <Flex px='10%' bgColor='#f0ef37' mt={{ base: '50px', sm: '125px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+        <Flex id='contact' px='10%' bgColor='#f0ef37' mt={{ base: '50px', sm: '125px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
           <Text fontSize={{ base: '2xl', lg: '3xl' }}>
             Gostaria de saber quanto custaria essa solução?<br />
             Realize uma cotação sem compromisso
           </Text>
-          <Button mt='4' color='Blue.800'>
-            Realizar cotação
-          </Button>
+          <ButtonForm
+            maxW={{ base: '90%', md: '40%' }}
+            _hover={{ filter: 'auto', brightness: '80%', transition: '0.5s' }}
+            transition='0.5s'
+            bgColor='Blue.800'
+            color='white'
+            mt='6'>
+            Solicitar orçamento
+          </ButtonForm>
         </Flex>
 
         <Text

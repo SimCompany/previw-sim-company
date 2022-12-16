@@ -16,6 +16,7 @@ import parte1 from './../../../img/suporte-ti-remota/parte1.png'
 import parte2 from './../../../img/suporte-ti-remota/part2.png'
 import parte3 from './../../../img/suporte-ti-remota/part3.png'
 import H3 from "./../../../components/Texts/H3";
+import { ButtonForm } from "../../../components/ButtonForm";
 
 
 export default function AutomatizeTarefas() {
@@ -50,7 +51,7 @@ export default function AutomatizeTarefas() {
               Conheça a melhor solução de suporte de TI remoto corporativa do mercado,
               agora, parte da família GoTo.
             </Text>
-            <ButtonChakra mt='6' px='8' py='6'>SOLICITAR ORÇAMENTO</ButtonChakra>
+            <ButtonChakra link='#contact' mt='6' px='8' py='6'>SOLICITAR ORÇAMENTO</ButtonChakra>
           </GridItem>
           <GridItem>
           </GridItem>
@@ -114,14 +115,14 @@ export default function AutomatizeTarefas() {
           />
         </DoubleGrid>
 
-        <Flex px='10%' bgColor='#f0ef37' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+        <Flex id='contact' px='10%' bgColor='#f0ef37' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
           <Text fontSize='3xl'>
             Gostaria de saber quanto custaria essa solução?<br />
             Realize uma cotação sem compromisso
           </Text>
-          <Button mt='4' color='Blue.800'>
-            Realizar cotação
-          </Button>
+          <ButtonForm bgColor='Blue.800' color='white' mt='6' maxW={{ base: '90%', md: '40%' }}>
+            Orçamento
+          </ButtonForm>
         </Flex>
       </main>
     </>

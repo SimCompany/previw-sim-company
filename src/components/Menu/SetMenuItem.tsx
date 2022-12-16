@@ -28,29 +28,29 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel>
-              <Stack direction='column' textAlign='start' justifyContent='space-around' h='340px'>
-                <Link fontSize='16px' href='/produtos/comunicacao/call-center-em-nuvem'>
-                  Comunicação em nuvem
+              <Stack direction='column' textAlign='start' justifyContent='space-around' h='320px'>
+                <Link fontSize='16px' href='/produtos/comunicacao/comunicacao-em-nuvem'>
+                  GoTo Connect
                 </Link>
                 <Link fontSize='16px' href='/produtos/comunicacao/hardware-para-conferencias'>
-                  Hardware para conferências
+                  GoTo Room
                 </Link>
-                <Link fontSize='16px' href='/produtos/pabx'>
-                  Call Center em nuvem
+                <Link fontSize='16px' href='/produtos/pabx/produtos/comunicacao/call-center-em-nuvem'>
+                  GoTo Contact Center
                 </Link>
-                <Link fontSize='16px' href='/produtos/pabx'>
-                  Plataforma de videoconferência
+                <Link fontSize='16px' href='/produtos/comunicacao/plataforma-de-videoconferencia'>
+                  GoTo Meeting
                 </Link>
-                <Link fontSize='16px' href='/produtos/pabx'>
-                  Plataforma para eventos virtuais
+                <Link fontSize='16px' href='/produtos/comunicacao/plataforma-para-eventos-virtuais'>
+                  GoTo Webinar
                 </Link>
-                <Link fontSize='16px' href='/produtos/pabx'>
+                <Link fontSize='16px' href='/produtos/comunicacao/novas-possibilidades-com-goto'>
                   Novas possibilidades com GoTo
                 </Link>
               </Stack>
             </AccordionPanel>
           </AccordionItem>
-          
+
           <AccordionItem border='none' mt='5'>
             <AccordionButton p='0px'>
               <Box textAlign='left'>
@@ -59,16 +59,12 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel pb='0'>
-              <Stack direction='column' textAlign='start' justifyContent='space-around' h='140px'>
-                <Link fontSize='16px' href='/produtos/central-de-atendimento'>
-                  Monitoramentos e gerenciamentos remotos
-                </Link>
-                <Link fontSize='16px' href='/produtos/hardware-para-conferencias'>
-                  Suporte remoto de TI
-                </Link>
-                <Link fontSize='16px' href='/produtos/pabx'>
-                  TI remoto
-                </Link>
+              <Stack direction='column' textAlign='start' justifyContent='space-around' h='240px'>
+                <MenuItem link='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>Central</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/goto-my-pc'>GoTo My Pc</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/pro'>Pro</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>GoTo Resolve</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/ti-remoto'>Rescue</MenuItem>
               </Stack>
             </AccordionPanel>
           </AccordionItem>
@@ -80,14 +76,10 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
               </Box>
               <AccordionIcon />
             </AccordionButton>
-            <AccordionPanel  pb='0'>
-              <Stack direction='column' textAlign='start' justifyContent='space-around'  h='100px'>
-                <Link fontSize='16px' href='/produtos/central-de-atendimento'>
-                  Gerenciamento bissnes
-                </Link>
-                <Link fontSize='16px' href='/produtos/hardware-para-conferencias'>
-                  Gerenciamento para empresas
-                </Link>
+            <AccordionPanel pb='0'>
+              <Stack direction='column' textAlign='start' justifyContent='space-around' h='100px'>
+                <MenuItem link='/produtos/senhas/lastpass-busines'>LastPass busines</MenuItem>
+                <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>LastPass pessoal</MenuItem>
               </Stack>
             </AccordionPanel>
           </AccordionItem>

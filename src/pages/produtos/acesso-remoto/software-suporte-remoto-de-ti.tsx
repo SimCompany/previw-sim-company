@@ -16,6 +16,7 @@ import Acc1 from './../../../img/software-suporte-remoto-de-ti/acc1.png'
 import Acc2 from './../../../img/software-suporte-remoto-de-ti/acc2.png'
 import Acc3 from './../../../img/software-suporte-remoto-de-ti/acc3.png'
 import Acc4 from './../../../img/software-suporte-remoto-de-ti/acc4.png'
+import { ButtonForm } from "../../../components/ButtonForm";
 
 
 export default function SoftwareSuporteRemotoTI() {
@@ -45,7 +46,7 @@ export default function SoftwareSuporteRemotoTI() {
             </H1>
             <Text color='White'>O GoTo Resolve é: suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança, que traz facilidade de uso e tranquilidade
               como nenhuma outra ferramenta</Text>
-            <ButtonChakra mt='6' px={{ base: '6', sm: '10' }} py='8'>FALAR COM DEPARTAMENTO</ButtonChakra>
+            <ButtonChakra link='#contact' mt='6' px={{ base: '6', sm: '10' }} py='8'>FALAR COM DEPARTAMENTO</ButtonChakra>
           </GridItem>
           <GridItem>
 
@@ -80,12 +81,14 @@ export default function SoftwareSuporteRemotoTI() {
           />
         </Grid>
 
-        <Flex mx='5%' flexDirection='column' alignItems='center'>
+        <Flex id='contact' mx='5%' flexDirection='column' alignItems='center'>
           <H3 textAlign={{ base: 'center' }} mb='20px'>
             O GoTo Resolve cria mais possibilidades<br />
             para equipes internas e remotas
           </H3>
-          <ButtonChakra px='60px' py='24px'>Fazer um orçamento</ButtonChakra>
+          <ButtonForm maxW={{base:'90%', md:'40%'}}>
+            Fazer orçamento
+          </ButtonForm>
         </Flex>
 
         <DoubleGrid
