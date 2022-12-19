@@ -64,7 +64,6 @@ export default function Footer() {
             <MenuItem link='/produtos/acesso-remoto/ti-remoto'>Rescue</MenuItem>
           </Stack>
         </GridItem>
-
       </Grid>
 
       <Divider mt='-19px' orientation='horizontal' />

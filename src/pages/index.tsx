@@ -23,6 +23,8 @@ import GoToNetWork from './../img/index/goto-network-celular.jpg'
 import gotoMyPc from './../img/index/gotomypc-sim-company.jpg'
 import GoToMyPcCelular from './../img/index/gotomypc-sim-company.jpg'
 import "react-multi-carousel/lib/styles.css";
+import Comment from "../components/statements/comment";
+import H2 from "../components/Texts/H2";
 
 
 export default function Index() {
@@ -38,12 +40,20 @@ export default function Index() {
     }
   };
 
+  const commentSlide = {
+    all: {
+      breakpoint: { max: 4000, min: 0 },
+      items: 1
+    }
+  }
+
+
   return (
     <Box as='main' maxW='1920px' mt='auto'>
 
       <Box>
         {isLargerThan800 ?
-          <Carousel infinite autoPlay  transitionDuration={9000} responsive={responsive}>
+          <Carousel draggable={false} infinite autoPlay transitionDuration={9000} responsive={responsive}>
             <Box>
               <Image src={Partner} alt='partner GoTo Sim Company' />
             </Box>
@@ -225,6 +235,66 @@ export default function Index() {
         </Flex>
       </Grid>
 
-    </Box>
+      <H3 mx='5%' py='50px' textAlign='center'>Veja o que as pessoas estão falando</H3>
+
+      <Carousel infinite autoPlay removeArrowOnDeviceType={["all"]} transitionDuration={3000} responsive={commentSlide}>
+        <Comment
+          heigth={[{ base: '600px', sm: '500px', lg: "450px" }]}
+          quotesMT={[{ base: '500px', sm: '300px', lg: "250px" }]}
+          author='Quix Comex'>
+          <Text mb='4'>
+            Para nós da Quick Comex a parceria de temos com Goto tem
+            sido uma maravilha, visto que são muito prestativos em ágeis quanto
+            aos retornos e suportes.
+          </Text>
+          <Text>
+            Nós optamos por vocês desde o início da
+            nossa empresa, por indicação de uma empresa parceira nossa e não
+            temos até o presente momento, nada que desabone essa parceria.
+          </Text>
+        </Comment>
+        <Comment
+          heigth={[{ base: '900px', sm: '650px', lg: "450px" }]}
+          quotesMT={[{ base: '800px', sm: '550px', lg: "350px" }]}
+          author='Sogamax - Distribuidora'>
+          <Text mb='4'>
+            Contratamos mais de 60 linhas voip para modernizar nosso sistema
+            que era analógico.
+          </Text>
+          <Text mb='4'>
+            Foi algo incrível, em pouco tempo estava tudo implementado e
+            funcionando. Tem uma curva de aprendizado bem baixa.
+            Plataforma gerenciável.
+          </Text>
+          <Text mb='4'>
+            Economizamos e melhoramos nossa qualidade de atendimento junto
+            aos clientes. O suporte é igualmente incrível, sempre sendo muito
+            educados e solícitos. Gosto também dos projetos de implantação,
+            sendo uma etapa importante de serem concluídos.
+          </Text>
+          <Text>
+            Hoje dou nota máxima de satisfação em toda a plataforma, do
+            atendimento até a entrega.
+          </Text>
+        </Comment>
+        <Comment
+          heigth={[{ base: '600px', sm: '500px', lg: "450px" }]}
+          quotesMT={[{ base: '500px', sm: '300px', lg: "250px" }]}
+          author='Mitsu - Imóveis'>
+          <Text mb='4'>
+            Os produtos da GoTo tem surpreendido no quesito, facilidade e economia.
+            Até o momento tem sido uma experiência maravilhosa, tudo muito prático
+            e de fácil manuseio.
+          </Text>
+          <Text>
+            O suporte tem sido sensacional, em especial a uma atendente chama
+            Sabrina, nota 10. Agradeço todo o suporte que tem sido prestado desde a
+            contratação até a instalação.
+          </Text>
+        </Comment>
+
+      </Carousel>
+
+    </Box >
   )
 }
