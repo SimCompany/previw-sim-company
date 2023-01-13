@@ -187,7 +187,7 @@ export default function Index() {
         <Box>
           <Image src={Background} alt='background' />
         </Box>
-        <Box height='550px' width={{ base: '90%', lg: '80%' }} margin={{ base: '5%', lg: '10%' }} position='absolute' top='0px' bgColor='white' shadow='base' borderRadius='10'>
+        <Box height='580px' width={{ base: '90%', lg: '80%' }} margin={{ base: '5%', lg: '10%' }} position='absolute' top='0px' bgColor='white' shadow='base' borderRadius='10'>
           <Text mt='50px' textAlign='center' as='h2' fontSize={{ base: '35px', md: '50px' }} lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>NOSSOS CLIENTES</Text>
 
           <Splide style={{ height: '90%', marginTop: '40px' }} options={{
