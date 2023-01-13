@@ -1,0 +1,31 @@
+.FirstComponent {
+  background-image: url('./../img/index/b1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.CloudCall {
+  background-image: url('./../img/index/b2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+@media (max-width:768px) {
+  .FirstComponent {
+    background-image: url('./../img/index/b1-mobile.jpg');
+    height: 100vh;
+  }
+
+  .CloudCall {
+    background-image: url('./../img/index/b2-mobile.jpg');
+    background-position: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+
+  }
+}

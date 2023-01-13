@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: "steelfish";
+  src: url('./../font/steelfish.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: steelfish;
+}

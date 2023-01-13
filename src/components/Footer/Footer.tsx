@@ -13,7 +13,7 @@ export default function Footer() {
     <Box as='footer' bg='Blue.800' >
       {/* <Link> */}
       <Box position='fixed' right='20px' bottom='20px'>
-        <Image src={LogoWhatsApp} alt='whatsapp' width='70px' height='70px' />
+        <Image src={LogoWhatsApp} alt='whatsapp' width='50px' height='50px' />
       </Box>
       {/* </Link> */}
       <Grid

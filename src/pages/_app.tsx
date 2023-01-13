@@ -4,6 +4,8 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Menu from '../components/Menu/Menu'
 import Footer from '../components/Footer/Footer'
 
+import './../styles/global.css'
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
