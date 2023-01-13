@@ -187,7 +187,7 @@ export default function Index() {
         <Box>
           <Image src={Background} alt='background' />
         </Box>
-        <Box height='600px' width='80%' margin='10%' position='absolute' top='0px' bgColor='white' shadow='base' borderRadius='10'>
+        <Box height='550px' width={{ base: '90%', lg: '80%' }} margin={{ base: '5%', lg: '10%' }} position='absolute' top='0px' bgColor='white' shadow='base' borderRadius='10'>
           <Text mt='50px' textAlign='center' as='h2' fontSize={{ base: '35px', md: '50px' }} lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>NOSSOS CLIENTES</Text>
 
           <Splide style={{ height: '90%', marginTop: '40px' }} options={{
@@ -196,7 +196,7 @@ export default function Index() {
             type: 'loop'
           }}>
             <SplideSlide>
-              <Flex mx='15%' h='450px' justifyContent='center' flexDirection='column'>
+              <Flex mx='15%' h={{ base: '380px', sm: '350px' }} justifyContent='center' flexDirection='column'>
                 <Text fontSize={{ base: '14px', md: '16px' }}>
                   Para nós da Quick Comex a parceria de temos com Goto tem
                   sido uma maravilha, visto que são muito prestativos em ágeis quanto
@@ -213,7 +213,7 @@ export default function Index() {
 
             {isLargerThan520 &&
               <SplideSlide>
-                <Flex mx='15%' h='550px' justifyContent='center' flexDirection='column'>
+                <Flex mx='15%' h='450px' justifyContent='center' flexDirection='column'>
                   <Text fontSize={{ base: '14px', md: '16px' }}>
                     Contratamos mais de 60 linhas voip para modernizar nosso sistema
                     que era analógico.
