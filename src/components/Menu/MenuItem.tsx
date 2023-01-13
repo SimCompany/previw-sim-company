@@ -8,6 +8,7 @@ interface MenuItem extends TextProps {
 }
 
 export default function MenuItem({ children, link, ...rest }: MenuItem) {
+
   return (
     <Link href={link} >
       <Text cursor='pointer' textAlign='start' _hover={{textDecoration: 'underline'}} {...rest}>

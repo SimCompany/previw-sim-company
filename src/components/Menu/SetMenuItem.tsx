@@ -1,4 +1,4 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Divider, Fade, Flex, HStack, Icon, Link, Stack, StackProps, VStack } from "@chakra-ui/react";
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Divider, Fade, Flex, HStack, Icon, Link, Stack, StackProps, Text, VStack } from "@chakra-ui/react";
 import MenuItem from "./MenuItem";
 
 import { IoMdArrowDropright } from 'react-icons/io'
@@ -22,9 +22,9 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
         <Accordion allowToggle>
           <AccordionItem border='none'>
             <AccordionButton p='0px'>
-              <Box textAlign='left'>
+              <Text fontSize='18px' textAlign='left'>
                 Comunicação
-              </Box>
+              </Text>
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel>
@@ -53,9 +53,9 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
 
           <AccordionItem border='none' mt='5'>
             <AccordionButton p='0px'>
-              <Box textAlign='left'>
+              <Text fontSize='18px' textAlign='left'>
                 Acesso Remoto
-              </Box>
+              </Text>
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel pb='0'>
@@ -71,9 +71,9 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
 
           <AccordionItem border='none' mt='5'>
             <AccordionButton p='0px' >
-              <Box textAlign='left' >
+              <Text fontSize='18px' textAlign='left' >
                 Gerenciamento de senhas
-              </Box>
+              </Text>
               <AccordionIcon />
             </AccordionButton>
             <AccordionPanel pb='0'>

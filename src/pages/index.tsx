@@ -26,7 +26,7 @@ export default function Index() {
         alignItems={{ base: 'end', md: 'center' }}
         pb={{ base: '80px', md: '0' }}>
         <Box flex={{ base: '0', md: '0.5' }}></Box>
-        <Box flex={{ base: '1', md: '0.5' }}>
+        <Box flex={{ base: '1', md: '0.5' }} textAlign={{ base: 'center', lg: 'start' }}>
           <Text
             fontSize={{ base: '40px', md: '50px' }}
             fontWeight='600'
@@ -43,8 +43,8 @@ export default function Index() {
         </Box>
       </Flex>
 
-      <Flex mx={{ base: '5%', lg: '15%' }} my={{ base: '75px', md: '100px' }} flexDirection={{ base: 'column', lg: 'row' }}>
-        <Box flex={{ base: '1', lg: '0.5' }} mr={{ base: '0px', lg: '8' }}>
+      <Flex mx={{ base: '5%', lg: '15%' }} mt={{ base: '75px', md: '100px' }} flexDirection={{ base: 'column', lg: 'row' }}>
+        <Box flex={{ base: '1', lg: '0.5' }} mr={{ base: '0px', lg: '8' }} textAlign={{ base: 'center', lg: 'start' }}>
           <Text as='h2' fontSize='40px' lineHeight='1.3' color='Blue.800'>
             A COLABORAÇÃO PERFEITA
             QUE CHEGA ATÉ VOCÊ!
@@ -61,8 +61,9 @@ export default function Index() {
 
       <Flex className={Styles.CloudCall} px={{ base: '5%', lg: '15%' }} flexDirection={{ base: 'column', md: 'row' }} alignItems={{ base: 'start', md: 'center' }}>
         <Box flex='0.5'></Box>
-        <Box flex='0.5' zIndex='2' mt={{ base: '500px', md: '0px' }}>
-          <Text as='h2' fontSize={{ base: '40px', md: '50px' }} lineHeight='1.3' color={{ base: 'Blue.800', md: 'white' }}><Text as='span' color='Green.300'>O SISTEMA DE TELEFONIA EM NUVEM</Text> MAIS COBIÇADO DO MERCADO</Text>
+        <Box flex='0.5' zIndex='2' pt={{ base: '300px', md: '0px' }} mb={{ base: '-300px', md: '0px' }} textAlign={{ base: 'center', lg: 'start' }}>
+          <Text as='h2' fontSize={{ base: '40px', md: '50px' }} lineHeight='1.3' color={{ base: 'Blue.800', md: 'white' }}>
+            <Text as='span' color='Green.300'>O SISTEMA DE TELEFONIA EM NUVEM</Text> MAIS COBIÇADO DO MERCADO</Text>
 
           <Text color={{ base: 'Blue.800', md: 'white' }} my='2'>Seu sistema de comunicação nunca mais será o mesmo, leve o que tem de melhor para sua equipe e clientes.</Text>
 
@@ -71,12 +72,12 @@ export default function Index() {
       </Flex>
 
 
-      <Flex mx='10%' my={{ base: '75px', md: '100px' }} alignItems='center' flexDirection={{ base: 'column', md: 'row' }}>
+      <Flex mx='10%' mt={{ base: '65vw', sm: '150px' }} mb={{ base: '75px', md: '100px' }} alignItems='center' flexDirection={{ base: 'column', md: 'row' }}>
         <Box flex='0.4'>
           <Image src={SimCompany} alt='logo-sim-company' />
         </Box>
 
-        <Box flex='0.6'>
+        <Box flex='0.6' textAlign={{ base: 'center', lg: 'start' }}>
           <Text as='h2' fontSize='55px' lineHeight='1.3' color='Blue.800'>SIM COMPANY</Text>
 
           <Text mt='4'>A Sim Company nasceu para oferecer a melhor experiência em atendimento e para trazer mais praticidade para seu dia a dia.</Text>
@@ -106,33 +107,33 @@ export default function Index() {
 
           <Stack>
             <Box mt='4' >
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Connect</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Connect</Text>
               <Text>Ligações, reuniões e bate-papo unificados.</Text>
               <ArrowButton link='/' />
 
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Contact center</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Contact center</Text>
               <Text>Central de atendimento em nuvem</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Meeting</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Meeting</Text>
               <Text>Ligações, reuniões e bate-papo unificados.</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Webinar</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Webinar</Text>
               <Text>Plataforma de eventos virtuais.</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Room</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Room</Text>
               <Text>Hardware para salas de conferência</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Training</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Training</Text>
               <Text>Plataforma de trainamentos virtuais.</Text>
               <ArrowButton link='/' />
             </Box>
@@ -149,28 +150,28 @@ export default function Index() {
 
           <Stack>
             <Box mt='8'>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoTo Resolve</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Resolve</Text>
               <Text>Suporte de TI completo, simples e intuitivo, que traz facilidade de uso e tranquilidade como nenhuma outra ferramenta.</Text>
               <ArrowButton link='/' />
 
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>Logmein Pro</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>Logmein Pro</Text>
               <Text>A ferramenta de acesso remoto mais confiável. Acesso em qualquer lugar e a qualquer hora a seu trabalho.</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>Central</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>Central</Text>
               <Text>Implemente e automatize remotamente as tarefas de rotina de TI.</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>GoToMyPc</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoToMyPc</Text>
               <Text>Conecte-se a arquivos, dados e aplicativos do escritório em trânsito com o premiado software da área de trabalho remota.</Text>
               <ArrowButton link='/' />
             </Box>
             <Box>
-              <Text as='b' fontSize='18px' color='Blue.800'>Rescue</Text>
+              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>Rescue</Text>
               <Text>Conheça a melhor solução de suporte de TI remoto corporativa do mercado, agora, parte da família GoTo</Text>
               <ArrowButton link='/' />
             </Box>

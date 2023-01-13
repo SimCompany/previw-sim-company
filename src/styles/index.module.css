@@ -22,10 +22,8 @@
 
   .CloudCall {
     background-image: url('./../img/index/b2-mobile.jpg');
-    background-position: end;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 950px;
+
+    height: 850px;
 
   }
 }
