@@ -41,9 +41,9 @@ export default function AutomatizeTarefas() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
-              Software empresarial<br />
-              de suporte remoto simples<br />
+            <H1 lineHeight={{ base: '48px', lg: '58px' }} fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
+              Software empresarial
+              de suporte remoto simples
               e prático.
             </H1>
             <Text color='white'>
@@ -116,7 +116,7 @@ export default function AutomatizeTarefas() {
         </DoubleGrid>
 
         <Flex id='contact' px='10%' bgColor='#f0ef37' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
-          <Text fontSize='3xl'>
+          <Text as='h5' fontSize={{ base: '40px', lg: '50px' }}>
             Gostaria de saber quanto custaria essa solução?<br />
             Realize uma cotação sem compromisso
           </Text>

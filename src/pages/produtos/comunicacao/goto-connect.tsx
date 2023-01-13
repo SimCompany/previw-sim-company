@@ -42,7 +42,7 @@ export default function Pabx() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize='4xl' color='White' fontWeight='extrabold' >
+            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '40px', lg: '50px' }} color='White' fontWeight='extrabold' >
               A conexão que sua empresa precisa.
             </H1>
             <Text color='white'>

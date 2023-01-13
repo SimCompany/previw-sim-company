@@ -187,11 +187,11 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/comunicacao/comunicacao-em-nuvem'>GoTo Connect</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/hardware-para-conferencias'>GoTo Room</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/call-center-em-nuvem'>GoTo Contact Center</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/plataforma-de-videoconferencia'>GoTo Meeting</MenuItem>
-                    <MenuItem link='/produtos/comunicacao/plataforma-para-eventos-virtuais'>GoTo Webinar</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/goto-cpnnect'>GoTo Connect</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/goto-room'>GoTo Room</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/goto-contact-center'>GoTo Contact Center</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/goto-meeting'>GoTo Meeting</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/goto-webinar'>GoTo Webinar</MenuItem>
                     <MenuItem link='/produtos/comunicacao/novas-possibilidades-com-goto'>Novas possibilidades com GoTo</MenuItem>
                   </Stack>
                 </Box>
@@ -205,11 +205,11 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>Central</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/central'>Central</MenuItem>
                     <MenuItem link='/produtos/acesso-remoto/goto-my-pc'>GoTo My Pc</MenuItem>
                     <MenuItem link='/produtos/acesso-remoto/pro'>Pro</MenuItem>
-                    <MenuItem link='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>GoTo Resolve</MenuItem>
-                    <MenuItem link='/produtos/acesso-remoto/ti-remoto'>Rescue</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/goto-resolve'>GoTo Resolve</MenuItem>
+                    <MenuItem link='/produtos/acesso-remoto/rescue'>Rescue</MenuItem>
                   </Stack>
                 </Box>
 

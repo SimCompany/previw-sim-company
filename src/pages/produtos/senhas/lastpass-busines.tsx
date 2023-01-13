@@ -1,6 +1,7 @@
 import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import { ButtonForm } from "../../../components/ButtonForm";
+import H4 from "../../../components/Texts/H4";
 import H5 from "../../../components/Texts/H5";
 import ButtonChakra from "./../../../components/Button/Button";
 import Topics from "./../../../components/Information/Topics";
@@ -38,9 +39,9 @@ export default function lastPassBusines() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
-              Gerenciamento de senhas descomplicado<br />
-              Melhore os hábitos e a segurança<br />
+            <H1 lineHeight={{ base: '40px', lg: '50px' }} fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
+              Gerenciamento de senhas descomplicado
+              Melhore os hábitos e a segurança
               das senhas sem reduzir a praticidade.
             </H1>
             <ButtonChakra link='#contact' mt='6' px='8' py='6'>SOLICITAR AVALIAÇÃO</ButtonChakra>
@@ -81,11 +82,11 @@ export default function lastPassBusines() {
 
 
         <Flex px='10%' mt={{ base: '50px', sm: '100px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
-          <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+          <Text as='h5' fontSize={{ base: '40', lg: '50px' }}>
             Gostaria de saber quanto custaria essa solução?<br />
             Realize uma cotação sem compromisso
           </Text>
-          <ButtonForm mt='10' maxW={{base:'90%', md:'40%'}}>
+          <ButtonForm mt='10' maxW={{ base: '90%', md: '40%' }}>
             Solicitar cotação
           </ButtonForm>
         </Flex>
@@ -135,7 +136,8 @@ export default function lastPassBusines() {
         </DoubleGrid>
 
         <Text
-          fontSize='3xl'
+          as='h3'
+          fontSize={{ base: '40px', lg: '50px' }}
           letterSpacing={0}
           fontWeight='bold'
           textAlign='center'
@@ -153,52 +155,52 @@ export default function lastPassBusines() {
           gridRowGap="40px"
         >
           <GridItem>
-            <H5>
+            <H4 color='Blue.800'>
               Ofereça controle granular de
               usuários aos administradores
-            </H5>
+            </H4>
             <Text>
               Obtenha informações sobre comportamentos em relação a senhas e relatórios de segurança e de login para aumentar a conformidade.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>
+            <H4 color='Blue.800'>
               Simplifique a implementação
-            </H5>
+            </H4>
             <Text>
               Automatize a ativação e a desativação de usuários integrando o LastPass ao diretório de usuários e aos provedores de identidade.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>
+            <H4 color='Blue.800'>
               Otimize o acesso dos funcionários
-            </H5>
+            </H4>
             <Text>
               Facilite os acessos e o trabalho dos funcionários dando adeus às senhas.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>
+            <H4 color='Blue.800'>
               Ssupervisão da TI com um
               console de administração
-            </H5>
+            </H4>
             <Text>
               O console de administração do LastPass oferece supervisão completa às equipes de TI. Simplifique as responsabilidades das equipes fornecendo a elas um painel de gerenciamento de segurança completo.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>
+            <H4 color='Blue.800'>
               Gerenciamento de senhas
               empresarial
-            </H5>
+            </H4>
             <Text>
               Grandes empresas precisam de um gerenciador de senhas integrado à tecnologia que já usam e a toda a organização. E o LastPass Business faz exatamente isso.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>
+            <H4 color='Blue.800'>
               Contas Families gratuitas
-            </H5>
+            </H4>
             <Text>
               Dê segurança para os funcionários e sua família para viverem e trabalharem de onde quiserem com contas gratuitas do LastPass Families. Conceder mais cinco licenças do LastPass a amigos e familiares
             </Text>

@@ -40,8 +40,8 @@ export default function SoftwareSuporteRemotoTI() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }} color='White' fontWeight='extrabold' >
-              Software de suporte<br />
+            <H1 lineHeight={{ base: '48px', md: '52px', lg: '58px' }} mb='20px' fontSize={{ base: '40px', md: '45px', lg: '50px' }} color='White' fontWeight='extrabold' >
+              Software de suporte
               remoto de TI que muda tudo
             </H1>
             <Text color='White'>O GoTo Resolve é: suporte de TI completo, simples e intuitivo, reforçado com segurança de confiança, que traz facilidade de uso e tranquilidade
@@ -86,7 +86,7 @@ export default function SoftwareSuporteRemotoTI() {
             O GoTo Resolve cria mais possibilidades<br />
             para equipes internas e remotas
           </H3>
-          <ButtonForm maxW={{base:'90%', md:'40%'}}>
+          <ButtonForm maxW={{ base: '90%', md: '40%' }}>
             Fazer orçamento
           </ButtonForm>
         </Flex>

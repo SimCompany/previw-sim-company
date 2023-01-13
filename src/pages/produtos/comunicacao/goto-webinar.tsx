@@ -35,8 +35,8 @@ export default function Pabx() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '3xl', xl: '4xl' }} color='White' fontWeight='extrabold' >
-              Plataforma de webinar<br />
+            <H1 lineHeight={{ base: '48px', xl: '58px' }} mb='20px' fontSize={{ base: '40px', xl: '50px' }} color='White' fontWeight='extrabold' >
+              Plataforma de webinar
               livre de complicações
             </H1>
             <Text color='white'>Organize treinamentos e eventos híbridos para empresa, de

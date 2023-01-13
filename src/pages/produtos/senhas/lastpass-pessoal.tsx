@@ -7,6 +7,7 @@ import DoubleGrid from "../../../components/ProdutosPage/DoubleGrid";
 import Track from "../../../components/ProdutosPage/track";
 import H1 from "../../../components/Texts/H1";
 import H3 from "../../../components/Texts/H3";
+import H4 from "../../../components/Texts/H4";
 import H5 from "../../../components/Texts/H5";
 
 import Acess from './../../../img/gerenciament-de-senhas/s2.jpg'
@@ -34,16 +35,16 @@ export default function GerenciamentoDeSenhas() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
+            <H1 lineHeight={{ base: '48px', lg: '58px' }} fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
               Gerenciamento de<br />
               Senhas em Qualquer Lugar
 
             </H1>
-            <Text color='white'>
+            <Text color='white' mt='4'>
               Agora, a vida é online: o trabalho, a diversão, o contato com a família e os amigos...
               O LastPass coloca sua vida digital na palma das suas mãos, de um jeito simples e seguro.
             </Text>
-            <ButtonChakra link='#contact' mt='6' px='8' py='6'>Fazer meu pedido</ButtonChakra>
+            <ButtonChakra link='#contact' mt='4' px='8' py='6'>Fazer meu pedido</ButtonChakra>
           </GridItem>
           <GridItem>
           </GridItem>
@@ -77,27 +78,27 @@ export default function GerenciamentoDeSenhas() {
           gridRowGap="40px"
         >
           <GridItem>
-            <H5>É só fazer o login e pronto</H5>
+            <H4 color='Blue.800'>É só fazer o login e pronto</H4>
             <Text>Depois de salvar uma senha no LastPass, você sempre a terá à disposição quando precisar, tornando o login rápido e fácil.</Text>
           </GridItem>
           <GridItem>
-            <H5>Login sem senha</H5>
+            <H4 color='Blue.800'>Login sem senha</H4>
             <Text>Use o LastPass Authenticator para acessar seu cofre — não precisa usar a senha mestre.</Text>
           </GridItem>
           <GridItem>
-            <H5>Segurança avançada</H5>
+            <H4 color='Blue.800'>Segurança avançada</H4>
             <Text>O gerador de senhas integrado cria senhas longas e aleatórias para proteger suas contas dos hackers.</Text>
           </GridItem>
           <GridItem>
-            <H5>Armazene registros digitais</H5>
+            <H4 color='Blue.800'>Armazene registros digitais</H4>
             <Text>Números de seguro, títulos, senhas de Wi-Fi... mantenha todas as suas notas seguras e fáceis de achar.</Text>
           </GridItem>
           <GridItem>
-            <H5>Compartilhamento com facilidade</H5>
+            <H4 color='Blue.800'>Compartilhamento com facilidade</H4>
             <Text>Algumas informações não devem ser enviadas por mensagem. Compartilhe senhas e notas com conveniência e segurança com qualquer pessoa.</Text>
           </GridItem>
           <GridItem>
-            <H5>Monitoramento da dark web</H5>
+            <H4 color='Blue.800'>Monitoramento da dark web</H4>
             <Text>Pare de se preocupar com vazamentos de dados. Receba alertas se seus dados pessoais estiverem em risco.</Text>
           </GridItem>
         </Grid>
@@ -112,7 +113,7 @@ export default function GerenciamentoDeSenhas() {
           id="contact"
         >
           <H3
-            fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}
+            fontSize={{ base: '40px', md: '45px', lg: '50px' }}
           >
             O LastPass conta com a confiança de<br />
             especialistas do mundo todo

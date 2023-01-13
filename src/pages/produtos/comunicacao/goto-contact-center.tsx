@@ -44,8 +44,8 @@ export default function Comunicação() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
-              Central de atendimento <br />
+            <H1 fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
+              Central de atendimento
               em nuvem
             </H1>
             <Text color='white'>Ofereça melhores experiências ao cliente e aumente a receita com uma

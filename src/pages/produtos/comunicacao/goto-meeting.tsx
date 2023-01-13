@@ -44,16 +44,16 @@ export default function PlataformaVideoconferencia() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }} color='White' fontWeight='extrabold' >
+            <H1 lineHeight={{ base: '48px', sm: '52px', lg: '58px' }} mb='20px' fontSize={{ base: '40px', sm: '45px', lg: '50px' }} color='White' fontWeight='extrabold' >
               reuniões online simplificado
               com a segurança das
               grandes empresas
             </H1>
             <Text color='White'>Software de reuniões online simplificado com a segurança das grandes
               empresas, liberdade e praticidade.</Text>
-              <ButtonForm mt='4'>
-                Solicitar orçamento
-              </ButtonForm>
+            <ButtonForm mt='4'>
+              Solicitar orçamento
+            </ButtonForm>
           </GridItem>
           <GridItem>
 

@@ -38,9 +38,9 @@ export default function gotoMyPc() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
-              Acesse seu Mac ou<br />
-              PC de qualquer lugar,<br />
+            <H1 lineHeight={{ base: '48px', lg: '58px' }} fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
+              Acesse seu Mac ou
+              PC de qualquer lugar,
               em qualquer dispositivo
             </H1>
 
@@ -94,14 +94,14 @@ export default function gotoMyPc() {
         </Grid>
 
 
-        <Flex px='10%' mt={{ base: '50px', sm: '100px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
-          <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+        <Flex px='10%' my={{ base: '50px', sm: '100px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
+          <Text as='h5' fontSize={{ base: '40px', lg: '50px' }}>
             O padrão da indústria para acesso remoto<br />
             a computadores por mais de 20 anos.
           </Text>
-          <ButtonForm 
-          maxW={{base:'90%', md:'40%'}}
-          mt='10'>
+          <ButtonForm
+            maxW={{ base: '90%', md: '40%' }}
+            mt='10'>
             Realizar avaliação
           </ButtonForm>
         </Flex>

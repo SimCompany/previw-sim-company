@@ -29,19 +29,19 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
             </AccordionButton>
             <AccordionPanel>
               <Stack direction='column' textAlign='start' justifyContent='space-around' h='320px'>
-                <Link fontSize='16px' href='/produtos/comunicacao/comunicacao-em-nuvem'>
+                <Link fontSize='16px' href='/produtos/comunicacao/goto-connect'>
                   GoTo Connect
                 </Link>
-                <Link fontSize='16px' href='/produtos/comunicacao/hardware-para-conferencias'>
+                <Link fontSize='16px' href='/produtos/comunicacao/goto-room'>
                   GoTo Room
                 </Link>
-                <Link fontSize='16px' href='/produtos/pabx/produtos/comunicacao/call-center-em-nuvem'>
+                <Link fontSize='16px' href='/produtos/pabx/produtos/comunicacao/goto-contact-center'>
                   GoTo Contact Center
                 </Link>
-                <Link fontSize='16px' href='/produtos/comunicacao/plataforma-de-videoconferencia'>
+                <Link fontSize='16px' href='/produtos/comunicacao/goto-meeting'>
                   GoTo Meeting
                 </Link>
-                <Link fontSize='16px' href='/produtos/comunicacao/plataforma-para-eventos-virtuais'>
+                <Link fontSize='16px' href='/produtos/comunicacao/goto-webinar'>
                   GoTo Webinar
                 </Link>
                 <Link fontSize='16px' href='/produtos/comunicacao/novas-possibilidades-com-goto'>
@@ -60,11 +60,11 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
             </AccordionButton>
             <AccordionPanel pb='0'>
               <Stack direction='column' textAlign='start' justifyContent='space-around' h='240px'>
-                <MenuItem link='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>Central</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/central'>Central</MenuItem>
                 <MenuItem link='/produtos/acesso-remoto/goto-my-pc'>GoTo My Pc</MenuItem>
                 <MenuItem link='/produtos/acesso-remoto/pro'>Pro</MenuItem>
-                <MenuItem link='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>GoTo Resolve</MenuItem>
-                <MenuItem link='/produtos/acesso-remoto/ti-remoto'>Rescue</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/goto-resolve'>GoTo Resolve</MenuItem>
+                <MenuItem link='/produtos/acesso-remoto/rescue'>Rescue</MenuItem>
               </Stack>
             </AccordionPanel>
           </AccordionItem>
@@ -79,7 +79,7 @@ export default function SetMenuItem({ mb, ...rest }: SetMenuItemProps) {
             <AccordionPanel pb='0'>
               <Stack direction='column' textAlign='start' justifyContent='space-around' h='100px'>
                 <MenuItem link='/produtos/senhas/lastpass-busines'>LastPass busines</MenuItem>
-                <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>LastPass pessoal</MenuItem>
+                <MenuItem link='/produtos/senhas/lastpass-pessoal'>LastPass pessoal</MenuItem>
               </Stack>
             </AccordionPanel>
           </AccordionItem>

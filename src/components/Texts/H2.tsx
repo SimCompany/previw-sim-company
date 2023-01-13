@@ -10,7 +10,7 @@ interface H1Props extends TextProps {
 export default function H2({ children, ...rest }: H1Props) {
 
   return (
-    <Text as='h2' lineHeight={{base:'1.1', sm: '1', lg: '1.25' }} fontSize={{ base: '2xl', sm: '1xl', md: '1xl', lg: '2xl', xl: '3xl', '2xl': '4xl' }} fontWeight='extrabold' color='Green.300' {...rest}>
+    <Text as='h2' lineHeight={{ base: '1.1', sm: '1', lg: '1.25' }} fontSize={{ base: '30px', sm: '32px', md: '35px', lg: '40px', xl: '45px', '2xl': '50px' }} fontWeight='extrabold' color='Green.300' {...rest}>
       {children}
     </Text>
   )

@@ -8,26 +8,6 @@ export default function MenuWindown(CloseMenu: any) {
 
   const { isOpen, onClose, onToggle } = useDisclosure()
 
-  function HoverHome() {
-    const testandoId: any = document.getElementById('bgHeader')
-    testandoId.style.backgroundImage = "url('https://i.imgur.com/qUq4MvM.jpg')"
-  }
-
-  function HoverCallCenter() {
-    const testandoId: any = document.getElementById('bgHeader')
-    testandoId.style.backgroundImage = "url('https://i.imgur.com/C5rYATf.jpg')"
-  }
-
-  function HoverPABX() {
-    const testandoId: any = document.getElementById('bgHeader')
-    testandoId.style.backgroundImage = "url('https://i.imgur.com/qUq4MvM.jpg')"
-  }
-
-  function HoverHardware() {
-    const testandoId: any = document.getElementById('bgHeader')
-    testandoId.style.backgroundImage = "url('https://i.imgur.com/ofselle.jpg')"
-  }
-
   return (
     <Flex
       alignItems='center'
@@ -45,22 +25,22 @@ export default function MenuWindown(CloseMenu: any) {
       position='fixed' top='0' zIndex={100}>
       <Stack spacing={4} justifyContent='center' flexDirection='column'>
         <Box>
-          <MenuItem link='/' fontSize='3xl' onMouseEnter={HoverHome}>
+          <MenuItem link='/' fontSize='3xl'>
             Início
           </MenuItem>
         </Box>
         <Box>
-          <MenuItem link='/produtos/central-de-atendimento' fontSize='3xl' onMouseEnter={HoverCallCenter} onClick={onClose}>
+          <MenuItem link='/produtos/central-de-atendimento' fontSize='3xl' onClick={onClose}>
             Central de Atendimento
           </MenuItem>
         </Box>
         <Box>
-          <MenuItem link='/produtos/hardware-para-conferencias' fontSize='3xl' onMouseEnter={HoverHardware} onClick={onClose}>
+          <MenuItem link='/produtos/hardware-para-conferencias' fontSize='3xl'onClick={onClose}>
             Hardware para Conferências
           </MenuItem>
         </Box>
         <Box>
-          <MenuItem link='/produtos/pabx' fontSize='3xl' onMouseEnter={HoverPABX} onClick={onClose}>
+          <MenuItem link='/produtos/pabx' fontSize='3xl' onClick={onClose}>
             PABX
           </MenuItem>
         </Box>

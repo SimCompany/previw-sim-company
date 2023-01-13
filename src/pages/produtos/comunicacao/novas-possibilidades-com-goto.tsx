@@ -53,9 +53,9 @@ export default function Home() {
             flexDirection='column'
             px={{ base: '5%', md: '15%' }}
           >
-            <H1 fontSize={{ base: '2xl', sm: '3xl', lg: '5xl' }} fontWeight='bold' color='white' lineHeight='1.3'>
-              Descubra o poder que<br />
-              sua empresa pode ter<br />
+            <H1 fontSize={{ base: '40px', sm: '45px', lg: '50px' }} fontWeight='bold' color='white' lineHeight='1.3'>
+              Descubra o poder que
+              sua empresa pode ter
               com a GoTo
             </H1>
             <ButtonChakra link='#contact' px='60px' py={{ base: '6', md: '8' }} mt='6'>
@@ -81,7 +81,7 @@ export default function Home() {
               maxW={{ base: 'none', xl: '560' }}
               maxH={{ sm: '300', md: '415' }}
               ratio={1}>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/AeYqEx5NmCE" title="YouTube video player"
+              <iframe src="https://www.youtube.com/embed/AeYqEx5NmCE" title="YouTube video player"
                 frameBorder="0"
 
                 allowFullScreen />
@@ -201,7 +201,7 @@ export default function Home() {
           </Grid>
 
           <Flex id='contact' px='10%' bgColor='#f0ef37' mb='-50px' mt='125px' py='75px' flexDirection='column' alignItems='center' textAlign='center'>
-            <Text fontSize='3xl'>
+            <Text fontSize={{ base: '40px', lg: '50px' }} as='h5'>
               Gostaria de saber quanto custaria essa solução?<br />
               Realize uma cotação sem compromisso
             </Text>

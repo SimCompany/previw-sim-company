@@ -23,13 +23,13 @@ export default function Footer() {
         p={{ base: '50px 5%', sm: '5% 10%', lg: '5% 15%' }}
         mt='0px'>
         <GridItem mb={{ base: '20px', sm: '0px' }}>
-          <Text fontWeight='bold' color='white'>Contato</Text>
-          <Stack spacing={1}>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white'>CONTATO</Text>
+          <Stack spacing={1} fontSize='14px'>
             <Text mt='2' fontWeight='light' color='white'>contato@simcompany.com.br</Text>
             <Text fontWeight='light' color='white'>(11) 5039-9046</Text>
           </Stack>
-          <Text fontWeight='bold' color='white' mt='4'>Endereço</Text>
-          <Text fontWeight='light' color='white' mt='2'>R. Aureliano Guimarães, 172 – Sala 1015 / 1016  - Vila Andrade, São Paulo - SP,  CEP: 05727-160</Text>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>Endereço</Text>
+          <Text fontWeight='light' fontSize='14px' color='white' mt='2'>R. Aureliano Guimarães, 172 – Sala 1015 / 1016  - Vila Andrade, São Paulo - SP,  CEP: 05727-160</Text>
 
           <HStack mt='8'>
             <Link href='https://www.instagram.com/sim.company/'>
@@ -43,32 +43,32 @@ export default function Footer() {
         </GridItem>
 
         <GridItem mb={{ base: '20px', sm: '0px' }}>
-          <Text fontWeight='bold' color='white' mb='2'>Comunicação</Text>
-          <Stack spacing={2} color='white'>
-            <MenuItem link='/produtos/comunicacao/comunicacao-em-nuvem'>GoTo Connect</MenuItem>
-            <MenuItem link='/produtos/comunicacao/hardware-para-conferencias'>GoTo Room</MenuItem>
-            <MenuItem link='/produtos/comunicacao/call-center-em-nuvem'>GoTo Contact Center</MenuItem>
-            <MenuItem link='/produtos/comunicacao/plataforma-de-videoconferencia'>GoTo Meeting</MenuItem>
-            <MenuItem link='/produtos/comunicacao/plataforma-para-eventos-virtuais'>GoTo Webinar</MenuItem>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>Comunicação</Text>
+          <Stack spacing={2} color='white' fontSize='14px'>
+            <MenuItem link='/produtos/comunicacao/goto-connect'>GoTo Connect</MenuItem>
+            <MenuItem link='/produtos/comunicacao/goto-room'>GoTo Room</MenuItem>
+            <MenuItem link='/produtos/comunicacao/goto-contact-center'>GoTo Contact Center</MenuItem>
+            <MenuItem link='/produtos/comunicacao/goto-meeting'>GoTo Meeting</MenuItem>
+            <MenuItem link='/produtos/comunicacao/goto-webinar'>GoTo Webinar</MenuItem>
             <MenuItem link='/produtos/comunicacao/novas-possibilidades-com-goto'>Novas possibilidades com GoTo</MenuItem>
           </Stack>
         </GridItem>
 
         <GridItem mb={{ base: '20px', sm: '0px' }}>
-          <Text fontWeight='bold' color='white' mb='2'>Acesso Remoto</Text>
-          <Stack spacing={2} color='white'>
-            <MenuItem link='/produtos/acesso-remoto/monitoramento-e-gerenciamento-remoto'>Central</MenuItem>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>Acesso Remoto</Text>
+          <Stack spacing={2} color='white' fontSize='14px'>
+            <MenuItem link='/produtos/acesso-remoto/central'>Central</MenuItem>
             <MenuItem link='/produtos/acesso-remoto/goto-my-pc'>GoTo My Pc</MenuItem>
             <MenuItem link='/produtos/acesso-remoto/pro'>Pro</MenuItem>
-            <MenuItem link='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>GoTo Resolve</MenuItem>
-            <MenuItem link='/produtos/acesso-remoto/ti-remoto'>Rescue</MenuItem>
+            <MenuItem link='/produtos/acesso-remoto/goto-resolve'>GoTo Resolve</MenuItem>
+            <MenuItem link='/produtos/acesso-remoto/rescue'>Rescue</MenuItem>
           </Stack>
         </GridItem>
       </Grid>
 
       <Divider mt='-19px' orientation='horizontal' />
 
-      <Flex color='white' fontSize='12px' mx={{ sm: '5%' }} textAlign='center' p='1px' flexDirection='column'>
+      <Flex color='white' fontSize='10px' mx={{ sm: '5%' }} textAlign='center' p='1px' flexDirection='column'>
         <Text>Desenvolvido por Isaques Estúdios | Todos os Direitos Reservados a Sim Company®</Text>
         <Text>Política de Privacidade e Termos de uso</Text>
         <Text>Tecnologia Utilizada: NextJs</Text>

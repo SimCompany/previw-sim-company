@@ -1,6 +1,9 @@
 import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import { ButtonForm } from "../../../components/ButtonForm";
+import H2 from "../../../components/Texts/H2";
+import H4 from "../../../components/Texts/H4";
+import H5 from "../../../components/Texts/H5";
 import ButtonChakra from "./../../../components/Button/Button";
 import Topics from "./../../../components/Information/Topics";
 import DoubleGrid from "./../../../components/ProdutosPage/DoubleGrid";
@@ -37,9 +40,9 @@ export default function AutomatizeTarefas() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
-              Implemente e automatize<br />
-              remotamente as tarefas<br />
+            <H1 lineHeight={{ base: '48px', lg: '58px' }} fontSize={{ base: '40px', lg: '48px' }} color='white'>
+              Implemente e automatize
+              remotamente as tarefas
               de rotina de TI
             </H1>
             <Text color='white'>
@@ -100,7 +103,7 @@ export default function AutomatizeTarefas() {
         </DoubleGrid>
 
         <Flex id='contact' px='10%' bgColor='#f0ef37' mt={{ base: '50px', sm: '125px' }} py='75px' flexDirection='column' alignItems='center' textAlign='center'>
-          <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+          <Text as='h4' fontSize={{ base: '40px', lg: '50px' }}>
             Gostaria de saber quanto custaria essa solução?<br />
             Realize uma cotação sem compromisso
           </Text>
@@ -116,7 +119,8 @@ export default function AutomatizeTarefas() {
         </Flex>
 
         <Text
-          fontSize='3xl'
+          as='h5'
+          fontSize={{ base: '40px', lg: '50px' }}
           letterSpacing={0}
           fontWeight='bold'
           textAlign='center'
@@ -134,27 +138,27 @@ export default function AutomatizeTarefas() {
           gridRowGap="40px"
         >
           <GridItem>
-            <H3>Controle remoto</H3>
+            <H4 color='Blue.500'>Controle remoto</H4>
             <Text>Suporte rápido e fácil a qualquer PC ou Mac, de qualquer lugar.</Text>
           </GridItem>
           <GridItem>
-            <H3>Gerenciamento de usuários</H3>
+            <H4 color='Blue.500'>Gerenciamento de usuários</H4>
             <Text>Organize seus usuários em grupos, controle as permissões, ative a autenticação de dois fatores e amplie o acesso aos computadores.</Text>
           </GridItem>
           <GridItem>
-            <H3>Agrupamento de computadores</H3>
+            <H4 color='Blue.500'>Agrupamento de computadores</H4>
             <Text>Organize os computadores de acordo com local, função, permissões de acesso ou quaisquer critérios especificados por você.</Text>
           </GridItem>
           <GridItem>
-            <H3>Gerenciamento de antivírus</H3>
+            <H4 color='Blue.500'>Gerenciamento de antivírus</H4>
             <Text>Proteja seus computadores com Central Premier com o antimalware líder de mercado.</Text>
           </GridItem>
           <GridItem>
-            <H3>Implantação remota</H3>
+            <H4 color='Blue.500'>Implantação remota</H4>
             <Text>Implante os hosts e configure os pacotes de instalação em todas as máquinas do seu ambiente de TI.</Text>
           </GridItem>
           <GridItem>
-            <H3>Monitoramento da integridade</H3>
+            <H4 color='Blue.500'>Monitoramento da integridade</H4>
             <Text>Uma visão completa da integridade de cada host, para detectar problemas críticos e atualizações importantes.</Text>
           </GridItem>
         </Grid>

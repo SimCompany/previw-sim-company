@@ -43,7 +43,7 @@ export default function Comunicação() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' mb='20px' fontSize='4xl' color='White' fontWeight='extrabold' >
+            <H1 lineHeight='40px' mb='20px' fontSize={{ base: '40px', lg: '50px' }} color='White' fontWeight='extrabold' >
               Configure em minutos, faça reuniões em segundos
             </H1>
             <Text color='White'>O GoTo Room oferece equipamentos de videoconferência intuitivos e econômicos que ajudam a descomplicar as reuniões.</Text>

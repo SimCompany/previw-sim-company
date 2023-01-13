@@ -37,15 +37,15 @@ export default function AutomatizeTarefas() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 lineHeight='40px' fontSize='3xl' color='white' fontWeight='extrabold'>
-              A liberdade de controlar<br />
-              seus acessos de onde<br />
+            <H1 lineHeight={{ base: '48px', lg: '58px' }} fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
+              A liberdade de controlar
+              seus acessos de onde
               você estiver
             </H1>
-            <Text color='white'>
+            <Text color='white' mt='4'>
               A ferramenta de acesso remoto mais confiável
             </Text>
-            <ButtonChakra link='#contact' mt='6' px='8' py='6'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+            <ButtonChakra link='#contact' mt='4' px='8' py='6'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
           </GridItem>
           <GridItem>
           </GridItem>
@@ -59,7 +59,7 @@ export default function AutomatizeTarefas() {
 
 
         <Flex px='10%' bgColor='white' mt={{ base: '50px', sm: '75px' }} py='125px' flexDirection='column' alignItems='center' textAlign='center'>
-          <Text fontSize={{ base: '2xl', lg: '3xl' }}>
+          <Text as='h5' fontSize={{ base: '40px', lg: '50px' }}>
             Encontre o plano certo para você e faça<br />
             uma avaliação gratuita
           </Text>
@@ -129,7 +129,7 @@ export default function AutomatizeTarefas() {
           </GridItem>
           <GridItem>
             <H3>
-              USUÁRIOS<br />
+              USUÁRIOS
               AVANÇADOS
             </H3>
             <Text>Valor mensal</Text>
@@ -151,7 +151,7 @@ export default function AutomatizeTarefas() {
           </GridItem>
           <GridItem>
             <H3>
-              PEQUENAS<br />
+              PEQUENAS
               EMPRESAS
             </H3>
             <Text>Valor mensal</Text>

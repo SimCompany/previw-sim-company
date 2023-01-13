@@ -41,7 +41,7 @@ export default function GoTo() {
             <Box w={{ base: '100px', lg: '200px' }}>
               <Image src={Logo} />
             </Box>
-            <H1 mt='-10' fontSize={{ base: '1xl', lg: '2xl', xl: '3xl' }} fontWeight='bold'>Conheça a nova GoTo</H1>
+            <H1 mt='-10' fontSize={{ base: '40px', lg: '50px', xl: '50px' }} fontWeight='bold'>Conheça a nova GoTo</H1>
             <Text fontSize={{ base: '1xl', lg: '2xl', xl: '3xl' }}>TI sem complicação, em qualquer<br /> lugar</Text>
           </Box>
           <Box flex='1.3'>
