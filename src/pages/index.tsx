@@ -43,7 +43,7 @@ export default function Index() {
         </Box>
       </Flex>
 
-      <Flex mx={{ base: '5%', lg: '15%' }} mt={{ base: '75px', md: '100px' }} flexDirection={{ base: 'column', lg: 'row' }}>
+      <Flex mx={{ base: '5%', lg: '15%' }} my={{ base: '75px', md: '100px' }} flexDirection={{ base: 'column', lg: 'row' }}>
         <Box flex={{ base: '1', lg: '0.5' }} mr={{ base: '0px', lg: '8' }} textAlign={{ base: 'center', lg: 'start' }}>
           <Text as='h2' fontSize='40px' lineHeight='1.3' color='Blue.800'>
             A COLABORAÇÃO PERFEITA
@@ -72,7 +72,7 @@ export default function Index() {
       </Flex>
 
 
-      <Flex mx='10%' mt={{ base: '150px', sm: '150px' }} mb={{ base: '75px', md: '100px' }} alignItems='center' flexDirection={{ base: 'column', md: 'row' }}>
+      <Flex mx='10%' mt={{ base: '150px' }} mb={{ base: '75px', md: '100px' }} alignItems='center' flexDirection={{ base: 'column', md: 'row' }}>
         <Box flex='0.4'>
           <Image src={SimCompany} alt='logo-sim-company' />
         </Box>
@@ -102,7 +102,7 @@ export default function Index() {
         </Box>
 
         <Box flex='0.5' mt={{ base: '30px', lg: '0px' }} ml={{ base: '0px', lg: '30px' }}>
-          <Text as='h2' fontSize='50px' lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>Comunicação e colaboração</Text>
+          <Text as='h2' fontSize={{ base: '40px', lg: '50px' }} lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>Comunicação e colaboração</Text>
           <Text>Sua empresa precisa mais do que um simples serviço telefónico.</Text>
 
           <Stack>
