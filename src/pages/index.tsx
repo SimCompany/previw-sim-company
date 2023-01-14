@@ -72,7 +72,7 @@ export default function Index() {
       </Flex>
 
 
-      <Flex mx='10%' mt={{ base: '65vw', sm: '150px' }} mb={{ base: '75px', md: '100px' }} alignItems='center' flexDirection={{ base: 'column', md: 'row' }}>
+      <Flex mx='10%' mt={{ base: '150px', sm: '150px' }} mb={{ base: '75px', md: '100px' }} alignItems='center' flexDirection={{ base: 'column', md: 'row' }}>
         <Box flex='0.4'>
           <Image src={SimCompany} alt='logo-sim-company' />
         </Box>
