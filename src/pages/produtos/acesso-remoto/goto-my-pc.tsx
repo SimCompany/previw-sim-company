@@ -44,7 +44,7 @@ export default function gotoMyPc() {
               em qualquer dispositivo
             </H1>
 
-            <ButtonChakra link='#contact' mt='6' px='8' py='6'>SOLICITAR AVALIAÇÃO</ButtonChakra>
+            <ButtonForm mt='6' px='8' py='6'>SOLICITAR AVALIAÇÃO</ButtonForm>
           </GridItem>
           <GridItem>
           </GridItem>

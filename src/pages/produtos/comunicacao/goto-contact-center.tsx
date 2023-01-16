@@ -44,14 +44,14 @@ export default function Comunicação() {
           gridTemplateRows='1fr'
           gridColumnGap='10%'>
           <GridItem>
-            <H1 fontSize={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
+            <H1 fontSize={{ base: '40px', lg: '50px' }} mb='4' lineHeight={{ base: '40px', lg: '50px' }} color='white' fontWeight='extrabold'>
               Central de atendimento
               em nuvem
             </H1>
             <Text color='white'>Ofereça melhores experiências ao cliente e aumente a receita com uma
               solução de call center em nuvem para pequenas e médias empresas.</Text>
             <Link href='#contact'>
-              <ButtonChakra mt='6' px='10' py='7'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
+              <ButtonChakra mt='4' px='10' py='7'>SOLICITAR DEMONSTRAÇÃO</ButtonChakra>
             </Link>
           </GridItem>
           <GridItem>

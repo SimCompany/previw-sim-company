@@ -14,6 +14,7 @@ import RemoteSolution from './../img/index/z1.jpg'
 import Background from './../img/index/b3.jpg'
 
 import { useBreakpointValue } from '@chakra-ui/react'
+import { ButtonForm } from "../components/ButtonForm";
 
 
 export default function Index() {
@@ -39,7 +40,7 @@ export default function Index() {
 
           <Text my='2' color='white'>Economize tempo e dinheiro atualizando seu sistema atual pelas vantagens GoTo. Conheça todas as nossas soluções.</Text>
 
-          <Button fontWeight='700' bgColor='Green.300' transition='0.5s' fontSize='18px' px='8' w={{ base: '100%', md: 'auto' }} _hover={{ bgColor: 'Green.500', transition: '0.5s' }}>CONHECER SOLUÇÕES</Button>
+          <ButtonForm>FALE CONOSCO</ButtonForm>
         </Box>
       </Flex>
 
@@ -59,15 +60,26 @@ export default function Index() {
       </Flex>
 
 
-      <Flex className={Styles.CloudCall} px={{ base: '5%', lg: '15%' }} flexDirection={{ base: 'column', md: 'row' }} alignItems={{ base: 'start', md: 'center' }}>
+      <Flex className={Styles.CloudCall}
+        px={{ base: '5%', lg: '15%' }}
+        flexDirection={{ base: 'column', md: 'row' }}
+        alignItems={{ base: 'start', md: 'center' }}>
         <Box flex='0.5'></Box>
-        <Box flex='0.5' zIndex='2' pt={{ base: '300px', md: '0px' }} mb={{ base: '-300px', md: '0px' }} textAlign={{ base: 'center', lg: 'start' }}>
-          <Text as='h2' fontSize={{ base: '40px', md: '50px' }} lineHeight='1.3' color={{ base: 'Blue.800', md: 'white' }}>
+        <Box
+          flex='0.5'
+          zIndex='2'
+          pt={{ base: '300px', md: '0px' }}
+          mb={{ base: '-300px', md: '0px' }}
+          textAlign={{ base: 'center', lg: 'start' }}>
+          <Text as='h2'
+            fontSize={{ base: '40px', md: '50px' }}
+            lineHeight='1.3'
+            color={{ base: 'Blue.800', md: 'white' }}>
             <Text as='span' color='Green.300'>O SISTEMA DE TELEFONIA EM NUVEM</Text> MAIS COBIÇADO DO MERCADO</Text>
 
           <Text color={{ base: 'Blue.800', md: 'white' }} my='2'>Seu sistema de comunicação nunca mais será o mesmo, leve o que tem de melhor para sua equipe e clientes.</Text>
 
-          <Button fontWeight='700' bgColor='Green.300' transition='0.5s' fontSize={{ base: '14px', md: '18px' }} w={{ base: '100%', lg: 'auto' }} px='8' _hover={{ bgColor: 'Green.500', transition: '0.5s' }}>CONFERIR ESSAS VANTAGENS</Button>
+          <ButtonForm>CONFIRA ESTAS VANTÁGENS</ButtonForm>
         </Box>
       </Flex>
 
@@ -102,78 +114,71 @@ export default function Index() {
         </Box>
 
         <Box flex='0.5' mt={{ base: '30px', lg: '0px' }} ml={{ base: '0px', lg: '30px' }}>
-          <Text as='h2' fontSize={{ base: '40px', lg: '50px' }} lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>Comunicação e colaboração</Text>
+          <Text as='h2' fontSize={{ base: '40px', lg: '50px' }} lineHeight='1.3'  color='Blue.800'>Comunicação e colaboração</Text>
           <Text>Sua empresa precisa mais do que um simples serviço telefónico.</Text>
 
           <Stack>
             <Box mt='4' >
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Connect</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoTo Connect</Text>
               <Text>Ligações, reuniões e bate-papo unificados.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/comunicacao/goto-connect' />
 
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Contact center</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoTo Contact center</Text>
               <Text>Central de atendimento em nuvem</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/comunicacao/goto-contact-center' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Meeting</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoTo Meeting</Text>
               <Text>Ligações, reuniões e bate-papo unificados.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/comunicacao/meeting' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Webinar</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoTo Webinar</Text>
               <Text>Plataforma de eventos virtuais.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/comunicacao/goto-webinar' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Room</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoTo Room</Text>
               <Text>Hardware para salas de conferência</Text>
-              <ArrowButton link='/' />
-            </Box>
-            <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Training</Text>
-              <Text>Plataforma de trainamentos virtuais.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/comunicacao/goto-room' />
             </Box>
           </Stack>
         </Box>
       </Flex>
 
 
-
       <Flex mx='10%' my={{ base: '75px', md: '100px' }} flexDirection={{ base: 'column-reverse', lg: 'row' }}>
         <Box mt={{ base: '20px', lg: '0px' }} mr='30px'>
-          <Text as='h2' fontSize='50px' lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>Acessos e suporte remotos</Text>
+          <Text as='h2' fontSize='50px' lineHeight='1.3'  color='Blue.800'>Acessos e suporte remotos</Text>
           <Text>Não se deixe limitar, veja novas oportunidades a partir do acesso remoto.</Text>
 
           <Stack>
             <Box mt='8'>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoTo Resolve</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoTo Resolve</Text>
               <Text>Suporte de TI completo, simples e intuitivo, que traz facilidade de uso e tranquilidade como nenhuma outra ferramenta.</Text>
-              <ArrowButton link='/' />
-
+              <ArrowButton link='/produtos/acesso-remoto/goto-resolve' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>Logmein Pro</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>Logmein Pro</Text>
               <Text>A ferramenta de acesso remoto mais confiável. Acesso em qualquer lugar e a qualquer hora a seu trabalho.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/acesso-remoto/pro' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>Central</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>Central</Text>
               <Text>Implemente e automatize remotamente as tarefas de rotina de TI.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/acesso-remoto/central' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>GoToMyPc</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>GoToMyPc</Text>
               <Text>Conecte-se a arquivos, dados e aplicativos do escritório em trânsito com o premiado software da área de trabalho remota.</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/acesso-remoto/goto-my-pc' />
             </Box>
             <Box>
-              <Text as='h6' letterSpacing='1.3px' fontSize='25px' color='Blue.800'>Rescue</Text>
+              <Text as='h6' fontSize='25px' color='Blue.800'>Rescue</Text>
               <Text>Conheça a melhor solução de suporte de TI remoto corporativa do mercado, agora, parte da família GoTo</Text>
-              <ArrowButton link='/' />
+              <ArrowButton link='/produtos/acesso-remoto/rescue' />
             </Box>
           </Stack>
         </Box>
@@ -189,7 +194,7 @@ export default function Index() {
           <Image src={Background} alt='background' />
         </Box>
         <Box height='580px' width={{ base: '90%', lg: '80%' }} margin={{ base: '5%', lg: '10%' }} position='absolute' top='0px' bgColor='white' shadow='base' borderRadius='10'>
-          <Text mt='50px' textAlign='center' as='h2' fontSize={{ base: '35px', md: '50px' }} lineHeight='1.3' letterSpacing={1.2} color='Blue.800'>NOSSOS CLIENTES</Text>
+          <Text mt='50px' textAlign='center' as='h2' fontSize={{ base: '35px', md: '50px' }} lineHeight='1.3'  color='Blue.800'>NOSSOS CLIENTES</Text>
 
           <Splide style={{ height: '90%', marginTop: '40px' }} options={{
             autoplay: true,

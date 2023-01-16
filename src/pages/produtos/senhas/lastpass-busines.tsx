@@ -44,7 +44,7 @@ export default function lastPassBusines() {
               Melhore os hábitos e a segurança
               das senhas sem reduzir a praticidade.
             </H1>
-            <ButtonChakra link='#contact' mt='6' px='8' py='6'>SOLICITAR AVALIAÇÃO</ButtonChakra>
+            <ButtonForm mt='6' px='8' py='6'>SOLICITAR AVALIAÇÃO</ButtonForm>
           </GridItem>
           <GridItem>
           </GridItem>

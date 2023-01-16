@@ -11,11 +11,11 @@ interface ArrowButtonInterface {
 
 export function ArrowButton({ link, children }: ArrowButtonInterface) {
   return (
-    <Link href={link}>
-      <Box my='1' display='flex' alignItems='center' justifyContent='start'>
+    <Box my='1' display='flex' alignItems='center' justifyContent='start'>
+      <Link href={link}>
         <Text color='Green.500' _hover={{ mr: '1.5', transition: '1s' }} transition='0.5s' cursor="pointer">{!children ? 'Acessar' : children} </Text>
-        <Icon as={BsArrowRightShort} color='Green.500' fontSize='20px' mr='2' />
-      </Box>
-    </Link>
+      </Link>
+      <Icon as={BsArrowRightShort} color='Green.500' fontSize='20px' mr='2' />
+    </Box>
   )
 }

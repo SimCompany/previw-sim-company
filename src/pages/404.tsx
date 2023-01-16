@@ -1,11 +1,11 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 
 
-export default function pageNotFound(){
+export default function pageNotFound() {
 
-  return(
-    <Box>
-      <Text>Página não encontrada</Text>
-    </Box>
+  return (
+    <Flex justifyContent='center' alignItems='center' >
+      Página não encontrada
+    </Flex>
   )
 }

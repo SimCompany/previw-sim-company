@@ -18,13 +18,13 @@ export function ButtonForm({ children, ...rest }: ButtonFormInterface) {
       <Modal
         isOpen={isOpen}
         onClose={onClose}
-        size='3xl'
+        size='2xl'
       >
         <ModalOverlay />
-        <ModalContent bgColor='Green.500'>
+        <ModalContent >
           <ModalCloseButton />
           <ModalBody pb={6}>
-            <FormButton />
+            <FormButton bgColorProp='white' colorProps='black' />
           </ModalBody>
         </ModalContent>
       </Modal>
@@ -32,9 +32,9 @@ export function ButtonForm({ children, ...rest }: ButtonFormInterface) {
       <Button
         w='100%'
         py='24px'
-        bgColor='#f0ef37'
+        bgColor='Green.300'
         _hover={{
-          bgColor: '#e6d234', transition: '0.5s'
+          bgColor: 'Green.500', transition: '0.5s'
         }}
         fontSize='18px'
         onClick={onOpen}

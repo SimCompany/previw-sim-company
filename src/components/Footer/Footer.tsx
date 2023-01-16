@@ -28,7 +28,7 @@ export default function Footer() {
             <Text mt='2' fontWeight='light' color='white'>contato@simcompany.com.br</Text>
             <Text fontWeight='light' color='white'>(11) 5039-9046</Text>
           </Stack>
-          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>Endereço</Text>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>ENDEREÇO</Text>
           <Text fontWeight='light' fontSize='14px' color='white' mt='2'>R. Aureliano Guimarães, 172 – Sala 1015 / 1016  - Vila Andrade, São Paulo - SP,  CEP: 05727-160</Text>
 
           <HStack mt='8'>
@@ -43,7 +43,7 @@ export default function Footer() {
         </GridItem>
 
         <GridItem mb={{ base: '20px', sm: '0px' }}>
-          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>Comunicação</Text>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>COMUNICAÇÃO</Text>
           <Stack spacing={2} color='white' fontSize='14px'>
             <MenuItem link='/produtos/comunicacao/goto-connect'>GoTo Connect</MenuItem>
             <MenuItem link='/produtos/comunicacao/goto-room'>GoTo Room</MenuItem>
@@ -55,7 +55,7 @@ export default function Footer() {
         </GridItem>
 
         <GridItem mb={{ base: '20px', sm: '0px' }}>
-          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>Acesso Remoto</Text>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>ACESSO REMOTO</Text>
           <Stack spacing={2} color='white' fontSize='14px'>
             <MenuItem link='/produtos/acesso-remoto/central'>Central</MenuItem>
             <MenuItem link='/produtos/acesso-remoto/goto-my-pc'>GoTo My Pc</MenuItem>

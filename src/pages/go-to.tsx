@@ -102,7 +102,7 @@ export default function GoTo() {
           <Box bgColor='#FFE801' p='8'>
             <H3 my='2'>GoTo Resolve</H3>
             <Text>Acesso, suporte e geração de tickets — tudo remoto a partir de uma única solução.</Text>
-            <Link href='/produtos/acesso-remoto/software-suporte-remoto-de-ti'>
+            <Link href='/produtos/acesso-remoto/goto-resolve'>
               <ButtonChakra mt='4' bgColor='#D9E6EC' p='8' fontWeight='semibold'>
                 Saiba mais sobre o<br /> GoTo Resolve
               </ButtonChakra>
@@ -111,7 +111,7 @@ export default function GoTo() {
           <Box bgColor='#FFE801' p='8'>
             <H3>GoTo Contact</H3>
             <Text>Solução de contact center para sua empresa assumir o controle da fila de chamadas instantaneamente.</Text>
-            <Link href='/produtos/comunicacao/call-center-em-nuvem'>
+            <Link href='/produtos/comunicacao/goto-contact'>
               <ButtonChakra mt='4' bgColor='#D9E6EC' p='8' fontWeight='semibold'>
                 Saiba mais sobre o<br /> GoTo Contact
               </ButtonChakra>

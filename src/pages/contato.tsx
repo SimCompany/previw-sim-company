@@ -1,78 +1,35 @@
-import { Box, Grid, Text, useBreakpointValue } from "@chakra-ui/react";
-import Image from "next/image";
+import { AspectRatio, Box, Flex, Text } from "@chakra-ui/react";
+import FormButton from "../components/ButtonForm/FormButton";
+import H3 from "../components/Texts/H3";
 
-import Background from './../img/global/fundo01.jpg'
-import Mobile from './../img/global/fundo-mobile.jpg'
-import FormElement from "../components/Form/Form";
-import H2 from "../components/Texts/H2";
-import { useEffect, useState } from "react";
+import styles from './../styles/contact.module.css'
 
-export default function Contato() {
-  const [mobile, setMobile] = useState<Boolean>()
+export default function contato() {
 
-  const mobileResolut = useBreakpointValue({
-    base: true,
-    lg: false
-  })
-
-  useEffect(() => {
-    if (window.innerWidth > 768) {
-      setMobile(false)
-    } else {
-      setMobile(true)
-    }
-  }, [mobileResolut])
 
   return (
-    <>
-      <Box
-        zIndex={-1}
-      >
-        {
-          mobile ? <Image src={Mobile} alt='background azul' /> : <Image src={Background} alt='background blue' />
-        }
+    <Box position='relative'>
+      <Box className={styles.background} h='400px' w='100%' backgroundPosition='center' backgroundRepeat='no-repeat' backgroundSize='cover' />
 
+      <Flex position='absolute' top={{ base: '50px', md: '150px' }} maxW='80%' mx='10%' flexDirection={{ base: 'column', md: 'row' }}>
+        <Box mr={{ base: '0px', md: '4' }} flex='0.5'>
+          <H3 color='white'>FALE COM NOSSA EQUIPE</H3>
 
-        <Grid
-          maxW='1344px'
-          margin={{ base: '5%', md: '10%', lg: '10%', '2xl': '15%' }}
-          templateColumns={{ base: '1fr', lg: '1fr 1fr' }}
-          position='absolute'
-          bottom={{ base: '850px', sm: '550px', md: '500px', lg: '350px', '2xl': '200px' }}
-        >
-          <Box
-            mr={{ base: '0px', lg: '10%' }}
-          >
-            <H2
-              color='white'
-              mb='25px'
-              display={{ base: 'none', sm: 'inline' }
+          <Text color='white'><Text as='b'>Telefone:</Text> (11) 5039-9046</Text>
+          <Text color='white'><Text as='b'>Email:</Text> contato@simcompany.com</Text>
+          <Text color='white'><Text as='b'>Endereço:</Text> Rua Direita Nº7 - SP - CEP: 7777-077</Text>
 
-              }
-            >Gostaria de falar com nossa equipe tecnica ?</H2>
-            <Text color='white'>(11) 5039-9046</Text>
-            <Text color='white'>contato@simcompany.com.br</Text>
-            <Text color='white'>R. Aureliano Guimarães, 172 – Sala 1015 / 1016  - Vila Andrade, São Paulo - SP,  CEP: 05727-160, Brasil</Text>
+          <AspectRatio mt='4'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5513354538384!2d-46.63479122774501!3d-23.548634294181532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5854cb049e6b%3A0x9c54d749985cfe0a!2sR.%20Direita%20-%20S%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001002-001!5e0!3m2!1spt-BR!2sbr!4v1673867440567!5m2!1spt-BR!2sbr" />
+          </AspectRatio>
+        </Box>
 
-            <Text color='white' mt={{ base: '0px', lg: '40px' }}>Endereço: Rua Direita N°7 - SP CEP 7777-077</Text>
+        <FormButton flex='0.5' mt={{ base: '20px', md:'0px'}} />
+      </Flex>
 
-            <Box h={{ base: '200px', sm: '350px' }} mt={{ sm: '15px', md: '25' }}>
-              <iframe style={{ width: '100%', height: '100%' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1292.3542763526382!2d-46.737886844822775!3d-23.62835407402872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce514fd94b8c63%3A0x6ce93bc344899af!2sR.%20Aureliano%20Guimar%C3%A3es%20-%20Vila%20Andrade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005727-160!5e0!3m2!1spt-BR!2sbr!4v1671191556834!5m2!1spt-BR!2sbr" loading="lazy"></iframe>
-            </Box>
-          </Box>
-          <Box
-
-            mt={{ base: '25px', lg: '0px' }}
-          >
-            <FormElement />
-          </Box>
-        </Grid>
-
+      <Box h={{base:'850px', md:'450px'}} >
 
       </Box>
-      <Box
-
-        h={{ base: '950px', sm: '650px', md: '1100px', lg: '420px', '2xl': '200px' }} />
-    </>
+    </Box>
   )
 }

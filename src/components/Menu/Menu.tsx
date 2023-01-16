@@ -186,7 +186,7 @@ export default function Menu() {
                   </Flex>
                   <Divider my='10px' />
                   <Stack spacing='10px'>
-                    <MenuItem link='/produtos/comunicacao/goto-cpnnect'>GoTo Connect</MenuItem>
+                    <MenuItem link='/produtos/comunicacao/goto-connect'>GoTo Connect</MenuItem>
                     <MenuItem link='/produtos/comunicacao/goto-room'>GoTo Room</MenuItem>
                     <MenuItem link='/produtos/comunicacao/goto-contact-center'>GoTo Contact Center</MenuItem>
                     <MenuItem link='/produtos/comunicacao/goto-meeting'>GoTo Meeting</MenuItem>
@@ -222,7 +222,7 @@ export default function Menu() {
                   <Divider my='10px' />
                   <Stack spacing='10px'>
                     <MenuItem link='/produtos/senhas/lastpass-busines'>LastPass busines</MenuItem>
-                    <MenuItem link='/produtos/senhas/gerenciamento-de-senhas'>LastPass pessoal</MenuItem>
+                    <MenuItem link='/produtos/senhas/lastpass-pessoal'>LastPass pessoal</MenuItem>
                   </Stack>
                 </Box>
               </Stack>
