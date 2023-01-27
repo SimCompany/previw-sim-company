@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <Box as='footer' bg='Blue.800' >
       {/* <Link> */}
-      <Box position='fixed' right='20px' bottom='20px'>
+      <Box position='fixed' right='20px' bottom='20px' zIndex={9999}>
         <Image src={LogoWhatsApp} alt='whatsapp' width='50px' height='50px' />
       </Box>
       {/* </Link> */}
@@ -29,7 +29,7 @@ export default function Footer() {
             <Text fontWeight='light' color='white'>(11) 5039-9046</Text>
           </Stack>
           <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>ENDEREÇO</Text>
-          <Text fontWeight='light' fontSize='14px' color='white' mt='2'>R. Aureliano Guimarães, 172 – Sala 1015 / 1016  - Vila Andrade, São Paulo - SP,  CEP: 05727-160</Text>
+          <Text fontWeight='light' fontSize='14px' color='white' mt='2'>Rua Direita Nº7 - SP - CEP: 7777-077</Text>
 
           <HStack mt='8'>
             <Link href='https://www.instagram.com/sim.company/'>
