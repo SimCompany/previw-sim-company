@@ -29,7 +29,7 @@ export default function Footer() {
             <Text fontWeight='light' color='white'>(11) 5039-9046</Text>
           </Stack>
           <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>ENDEREÇO</Text>
-          <Text fontWeight='light' fontSize='14px' color='white' mt='2'>Rua Direita Nº7 - SP - CEP: 7777-077</Text>
+          <Text fontWeight='light' fontSize='14px' color='white' mt='2'>Rua Dr. Campos, n°  78 sala 22 e 23, centro - Cerquilho - SP - CPF: 18.520.103</Text>
 
           <HStack mt='8'>
             <Link href='https://www.instagram.com/sim.company/'>
