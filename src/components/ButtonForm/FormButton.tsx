@@ -37,16 +37,15 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
 
     const data = {
       domain: 'www.simcompany.com.br',
-      // emailTo: 'contato@simcompany.com',
-      emailTo: 'matteus.isaque28@gmail.com',
+      emailTo: ['luana@simcompany.com.br', 'hubner@simcompany.com.br', 'edgard@simcompany.com.br', 'matteus.isaque28@gmail.com'],
       title: 'Formulário sim company',
       name,
       email,
       phone,
-      state,
-      city,
-      branches,
-      companyName,
+      // state,
+      // city,
+      // branches,
+      // companyName,
       message
     }
 
