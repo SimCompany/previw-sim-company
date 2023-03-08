@@ -34,6 +34,7 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
 
+
     const data = {
       domain: 'www.simcompany.com.br',
       // emailTo: 'contato@simcompany.com',
@@ -50,7 +51,7 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
     }
 
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}/ticonnected`, data)
+      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}ticonnected`, data)
     } catch (error) {
 
     }
