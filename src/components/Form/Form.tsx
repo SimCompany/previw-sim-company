@@ -24,7 +24,8 @@ export default function FormElement() {
 
     const data = {
       domain: 'www.simcompany.com.br',
-      emailTo: 'contato@simcompany.com',
+      // emailTo: 'contato@simcompany.com',
+      emailTo: 'matteus.isaque28@gmail.com',
       title: 'Formulário sim company',
       name,
       email,
