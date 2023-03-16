@@ -92,10 +92,14 @@ export default function Index() {
         <Box flex='0.6' textAlign={{ base: 'center', lg: 'start' }}>
           <Text as='h2' fontSize='55px' lineHeight='1.3' color='Blue.800'>SIM COMPANY</Text>
 
-          <Text mt='4'>A Sim Company nasceu para oferecer a melhor experiência em atendimento e para trazer mais praticidade para seu dia a dia.</Text>
-          <Text mt='4'>Somos uma empresa engajada em unir pessoas através da tecnologia, em um mundo cada vez mais polarizado. Prezamos as necessidades individuais de cada empresa, seja ela pequena ou uma grande corporação.</Text>
+          <Text mt='4'>A Sim Company foi fundada com o objetivo de fornecer a melhor experiência de atendimento e tornar o seu dia a dia mais fácil. Nós nos comprometemos em unir pessoas por meio da tecnologia, especialmente em um mundo cada vez mais polarizado. Na Sim Company, entendemos as necessidades individuais de cada empresa, independentemente do tamanho, e trabalhamos para oferecer soluções personalizadas que atendam às suas demandas.</Text>
 
-          <Text mt='4'>Com uma equipe altamente qualificada, preparada para analisar suas necessidades e desenvolver projetos que estejam de acordo com a sua realidade, intermediamos soluções e trazemos resultados. Nosso foco é o seu sucesso.</Text>
+          <Text mt='4'>
+            Contamos com uma equipe altamente qualificada e experiente, que analisa minuciosamente as suas necessidades e desenvolve projetos que estejam alinhados com a sua realidade. Através da nossa intermediação, trazemos resultados que atendem às suas expectativas e promovemos o seu sucesso.
+          </Text>
+
+          <Text mt='4'>Na Sim Company, estamos empenhados em oferecer serviços que atendam às suas expectativas e excedam as suas necessidades. Entre em contato conosco para saber como podemos ajudá-lo.
+          </Text>
         </Box>
       </Flex>
 
@@ -114,7 +118,7 @@ export default function Index() {
         </Box>
 
         <Box flex='0.5' mt={{ base: '30px', lg: '0px' }} ml={{ base: '0px', lg: '30px' }}>
-          <Text as='h2' fontSize={{ base: '40px', lg: '50px' }} lineHeight='1.3'  color='Blue.800'>Comunicação e colaboração</Text>
+          <Text as='h2' fontSize={{ base: '40px', lg: '50px' }} lineHeight='1.3' color='Blue.800'>Comunicação e colaboração</Text>
           <Text>Sua empresa precisa mais do que um simples serviço telefónico.</Text>
 
           <Stack>
@@ -151,7 +155,7 @@ export default function Index() {
 
       <Flex mx='10%' my={{ base: '75px', md: '100px' }} flexDirection={{ base: 'column-reverse', lg: 'row' }}>
         <Box mt={{ base: '20px', lg: '0px' }} mr='30px'>
-          <Text as='h2' fontSize='50px' lineHeight='1.3'  color='Blue.800'>Acessos e suporte remotos</Text>
+          <Text as='h2' fontSize='50px' lineHeight='1.3' color='Blue.800'>Acessos e suporte remotos</Text>
           <Text>Não se deixe limitar, veja novas oportunidades a partir do acesso remoto.</Text>
 
           <Stack>
@@ -194,7 +198,7 @@ export default function Index() {
           <Image src={Background} alt='background' />
         </Box>
         <Box height='580px' width={{ base: '90%', lg: '80%' }} margin={{ base: '5%', lg: '10%' }} position='absolute' top='0px' bgColor='white' shadow='base' borderRadius='10'>
-          <Text mt='50px' textAlign='center' as='h2' fontSize={{ base: '35px', md: '50px' }} lineHeight='1.3'  color='Blue.800'>NOSSOS CLIENTES</Text>
+          <Text mt='50px' textAlign='center' as='h2' fontSize={{ base: '35px', md: '50px' }} lineHeight='1.3' color='Blue.800'>NOSSOS CLIENTES</Text>
 
           <Splide style={{ height: '90%', marginTop: '40px' }} options={{
             autoplay: true,

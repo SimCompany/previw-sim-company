@@ -11,11 +11,11 @@ export default function Footer() {
 
   return (
     <Box as='footer' bg='Blue.800' >
-      {/* <Link> */}
-      <Box position='fixed' right='20px' bottom='20px' zIndex={9999}>
+      <Link href='https://api.whatsapp.com/send?phone=5511994354243'>
+      <Box position='fixed' right='20px' bottom='20px' zIndex={9999} cursor='pointer'>
         <Image src={LogoWhatsApp} alt='whatsapp' width='50px' height='50px' />
       </Box>
-      {/* </Link> */}
+      </Link>
       <Grid
         bgColor='Blue.800'
         gridTemplateColumns={{ base: '1fr', sm: ' 1fr 1fr', lg: '1fr 1fr 1fr' }}
