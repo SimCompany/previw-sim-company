@@ -26,6 +26,7 @@ export default function Footer() {
           <Text as='h6' letterSpacing='2px' fontSize='20px' color='white'>CONTATO</Text>
           <Stack spacing={1} fontSize='14px'>
             <Text mt='2' fontWeight='light' color='white'>contato@simcompany.com.br</Text>
+            <Text fontWeight='light' color='white'>0800 591 4571</Text>
             <Text fontWeight='light' color='white'>(11) 5039-9046</Text>
           </Stack>
           <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>ENDEREÇO</Text>

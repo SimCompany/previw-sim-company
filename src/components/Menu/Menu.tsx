@@ -174,6 +174,7 @@ export default function Menu() {
                     <MenuItem link='/'>Início</MenuItem>
                     <MenuItem link='/go-to'>Nova GoTo</MenuItem>
                     <MenuItem link='/contato'>Contato</MenuItem>
+                    <MenuItem link='https://camp.simcompany.com.br/'>PABX</MenuItem>
                   </Stack>
                 </Box>
 
@@ -223,6 +224,21 @@ export default function Menu() {
                   <Stack spacing='10px'>
                     <MenuItem link='/produtos/senhas/lastpass-busines'>LastPass busines</MenuItem>
                     <MenuItem link='/produtos/senhas/lastpass-pessoal'>LastPass pessoal</MenuItem>
+                  </Stack>
+                </Box>
+
+                <Box>
+                  <Flex alignItems='center'>
+                    <Text fontWeight='bold' fontSize='20px'>
+                      Blog
+                    </Text>
+                    <Icon as={BsArrowRightShort} fontSize='24px' />
+                  </Flex>
+                  <Divider my='10px' />
+                  <Stack spacing='10px'>
+                    <MenuItem link='https://blog.simcompany.com.br/category/duvidas-frequente/'>dúvidas frequentes</MenuItem>
+                    <MenuItem link='https://blog.simcompany.com.br/category/novidade/'>Novidades</MenuItem>
+                    <MenuItem link='https://blog.simcompany.com.br/category/suporte-ao-cliente/'>Suporte</MenuItem>
                   </Stack>
                 </Box>
               </Stack>
