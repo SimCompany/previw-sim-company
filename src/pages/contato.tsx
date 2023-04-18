@@ -16,7 +16,6 @@ export default function contato() {
           <H3 color='white'>FALE COM NOSSA EQUIPE</H3>
 
           <Text color='white'><Text as='b'>Telefone:</Text> 0800 591 4571</Text>
-          <Text color='white'><Text as='b'>Telefone:</Text> (11) 5039-9046</Text>
           <Text color='white'><Text as='b'>Email:</Text> contato@simcompany.com</Text>
           <Text color='white'><Text as='b'>Endereço:</Text> Rua Dr. Campos, n°  78 sala 22 e 23, centro - Cerquilho - SP - CPF: 18.520.103</Text>
 

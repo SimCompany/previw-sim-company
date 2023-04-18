@@ -12,9 +12,9 @@ export default function Footer() {
   return (
     <Box as='footer' bg='Blue.800' >
       <Link href='https://api.whatsapp.com/send?phone=5511994354243'>
-      <Box position='fixed' right='20px' bottom='20px' zIndex={9999} cursor='pointer'>
-        <Image src={LogoWhatsApp} alt='whatsapp' width='50px' height='50px' />
-      </Box>
+        <Box position='fixed' right='20px' bottom='20px' zIndex={9999} cursor='pointer'>
+          <Image src={LogoWhatsApp} alt='whatsapp' width='50px' height='50px' />
+        </Box>
       </Link>
       <Grid
         bgColor='Blue.800'
@@ -27,7 +27,6 @@ export default function Footer() {
           <Stack spacing={1} fontSize='14px'>
             <Text mt='2' fontWeight='light' color='white'>contato@simcompany.com.br</Text>
             <Text fontWeight='light' color='white'>0800 591 4571</Text>
-            <Text fontWeight='light' color='white'>(11) 5039-9046</Text>
           </Stack>
           <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mt='4'>ENDEREÇO</Text>
           <Text fontWeight='light' fontSize='14px' color='white' mt='2'>Rua Dr. Campos, n°  78 sala 22 e 23, centro - Cerquilho - SP - CEP: 18.520.103</Text>
