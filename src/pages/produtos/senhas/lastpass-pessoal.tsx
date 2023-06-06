@@ -18,7 +18,8 @@ export default function GerenciamentoDeSenhas() {
   return (
     <>
       <Head>
-        <title>Gerenciamento de senhas | Sim Company</title>
+        <title>Gerenciamento de Senhas Pessoal | Tenha segurança para as suas senhas</title>
+        <meta name="description" content="Gerenciamento completo de todas as suas senhas, tenha mais segurança e monitoramento dos acessos" />
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>

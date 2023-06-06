@@ -5,8 +5,6 @@ import H3 from "../components/Texts/H3";
 import styles from './../styles/contact.module.css'
 
 export default function contato() {
-
-
   return (
     <Box position='relative'>
       <Box className={styles.background} h='400px' w='100%' backgroundPosition='center' backgroundRepeat='no-repeat' backgroundSize='cover' />

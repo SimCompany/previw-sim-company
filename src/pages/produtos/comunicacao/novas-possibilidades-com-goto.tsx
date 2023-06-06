@@ -33,7 +33,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Produtos - Pabx em nuvem | Sim company</title>
+        <title>Sistema GoTo Room | Aplicativo para Reuniões empresarial </title>
+        <meta name="description" content="Tenha sistema de chamadas, com qualidade, gravação, acesso remoto e várias outras vantagens" />
       </Head>
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>
 

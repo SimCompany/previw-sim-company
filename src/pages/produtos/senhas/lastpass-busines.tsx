@@ -22,7 +22,8 @@ export default function lastPassBusines() {
   return (
     <>
       <Head>
-        <title>Produtos - Last Pass Busines | Sim Company</title>
+        <title>Gerenciamento de Senhas para Empresas | Tenha em mão todos os acessos da sua empresa</title>
+        <meta name="description" content="Gerencie os acessos e as senhas que sua empresa precisa, com segurança e praticidade" />
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>
