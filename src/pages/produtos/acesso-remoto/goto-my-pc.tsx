@@ -21,7 +21,8 @@ export default function gotoMyPc() {
   return (
     <>
       <Head>
-        <title>Produtos - Last Pass Busines | Sim Company</title>
+        <title>Acesse seu Pc ou Mac remotamente</title>
+        <meta name="description" content="Acesse remotamente seu pc ou mac de qualquer lugar, com segurança e economia, aumente sua produtividade" />
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>

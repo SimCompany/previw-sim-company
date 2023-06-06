@@ -18,7 +18,8 @@ export default function Pabx() {
   return (
     <>
       <Head>
-        <title>Produtos - PABX | Sim Company</title>
+        <title>Plataforma de webinar | Plataforma de eventos online, suporte com até 3000 mil pessoas simultaneamente </title>
+        <meta name="description" content="Tenha todas as métricas e instabilidade que seus eventos online precisam, eventos com qualidade em áudio e vídeo" />
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>

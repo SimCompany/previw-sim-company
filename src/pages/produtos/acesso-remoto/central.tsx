@@ -23,7 +23,8 @@ export default function AutomatizeTarefas() {
   return (
     <>
       <Head>
-        <title>Produtos - Automatize Suas Tarefas | Sim Company</title>
+        <title>Automatize as tarefas de TI da sua empresa</title>
+        <meta name="description" content="Automatize as tarefas de rotina de TI da sua empresa, tenha uma gestão empresarial automatizada" />
       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>

@@ -27,8 +27,9 @@ export default function Comunicação() {
   return (
     <>
       <Head>
-        <title>Produtos - Ligações em nuvem | Sim Company</title>
-      </Head>
+        <title>Software para central de atendimento | central de atendimento em nuvem melhor experiência para clientes</title>
+        <meta name="description" content="Software para central de atendimento em nuvem, receba informações e avaliações dos clientes e muito mais" />
+       </Head>
 
       <main style={{ maxWidth: '1920px', margin: '0 auto' }}>
         <Grid
