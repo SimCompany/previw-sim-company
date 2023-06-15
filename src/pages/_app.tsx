@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       TagManager.initialize(tagManagerArgs)
     })
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider  theme={theme}>
       <Menu />
       <Component {...pageProps} />
       <Footer />
