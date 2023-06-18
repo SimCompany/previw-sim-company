@@ -57,8 +57,8 @@ export default function lastPassBusines() {
               color="white"
               fontWeight="extrabold"
             >
-              Gerenciamento de senhas descomplicado Melhore os hábitos e a
-              segurança das senhas sem reduzir a praticidade.
+              Contrate o lastpass para sua empresa, aumente a segurança e a
+              praticidade da sua equipe
             </H1>
             <ButtonForm mt="6" px="8" py="6">
               SOLICITAR AVALIAÇÃO
@@ -83,24 +83,28 @@ export default function lastPassBusines() {
           textAlign="center"
         >
           <GridItem>
-            <H5>Elimine a reutilização de senhas por funcionários</H5>
+            <H5>
+              Acabe com a má prática de repetir senhas entre os funcionarios
+            </H5>
             <Text>
-              Garanta que os funcionários mantenham bons hábitos em relação a
-              senhas com o gerador de senhas LastPass integrado.
+              Promova práticas seguras de senhas entre os funcionários com a
+              integração do gerador de senhas LastPass.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>Gerencie e compartilhe senhas em um só local</H5>
+            <H5>Centralize e compartilhe senhas em uma única plataforma.</H5>
             <Text>
-              Ofereça a cada usuário um cofre próprio personalizado, mantendo a
-              supervisão com um painel de administração robusto.
+              Disponibilize para cada usuário um cofre personalizado exclusivo,
+              mantendo a supervisão através de um painel de administração
+              completo e seguro.
             </Text>
           </GridItem>
           <GridItem>
-            <H5>Proteja dados confidenciais</H5>
+            <H5>Assegure a privacidade de informações sensíveis.</H5>
             <Text>
-              Mantenha as credenciais, anotações e informações de todos seguras
-              adotando o modelo de segurança de conhecimento zero do LastPass.
+              Mantenha as credenciais, anotações e informações de todos
+              protegidas, adotando o modelo de segurança de conhecimento zero do
+              LastPass, garantindo total confidencialidade.
             </Text>
           </GridItem>
         </Grid>
@@ -130,11 +134,10 @@ export default function lastPassBusines() {
           alt="Segurança para seus acessos"
         >
           <Topics
-            title="Proteja sua empresa de
-            vazamentos com lastpass"
+            title="Garanta a segurança da sua empresa com o LastPass, evitando vazamentos."
             topics={[
-              "Bons hábitos e práticas relacionadas às senhas das empresas são essenciais no combate às violações de dados. No entanto, as práticas tradicionais de gerenciamento de senhas podem ser muito complicadas para funcionários e administradores",
-              "O LastPass Business facilita a vida dos usuários e das equipes de TI ao capacitar suas equipes. Economize tempo simplificando o gerenciamento de senhas de funcionários e fornecendo aos administradores informações úteis, desde relatórios avançados até mais de 100 políticas de segurança personalizáveis.",
+              "A adoção de boas práticas e hábitos relacionados às senhas empresariais é fundamental na luta contra violações de dados. No entanto, os métodos convencionais de gerenciamento de senhas podem ser excessivamente complexos tanto para funcionários quanto para administradores.",
+              "O LastPass Business simplifica a vida dos usuários e das equipes de TI, capacitando seus colaboradores. Economize tempo simplificando o gerenciamento de senhas dos funcionários e fornecendo aos administradores informações valiosas, como relatórios avançados e mais de 100 políticas de segurança personalizáveis.",
             ]}
           />
         </DoubleGrid>
@@ -147,14 +150,12 @@ export default function lastPassBusines() {
           alt="tenha segurança sem precisar de senhas"
         >
           <Topics
-            title="O futuro é sem senha, e a LastPass
-            lidera esse movimento"
+            title="A LastPass lidera o movimento em direção a um futuro sem senhas"
             topics={[
-              "Supere as barreiras de login. Livre-se do passado permitindo que todos os funcionários façam login sem senha em um cofre com centenas de acessos à web armazenados.",
-              "Ao fazer login sem uma senha, eles podem descriptografar seu cofre com o LastPass Authenticator sem usar sua senha mestra.",
-              "Simplifique os logins dos funcionários removendo as complicações que as senhas trazem.",
-              "Aplique políticas de segurança tão rígidas quanto exigir uma senha mestra para substituí-la.",
-              "Reduza os riscos associados ao uso de senhas de funcionários.",
+              "Ultrapasse as limitações de login. Desfaça-se do passado ao permitir que todos os funcionários acessem um cofre com centenas de credenciais web armazenadas, sem a necessidade de senhas.",
+              "Ao realizar o login sem a necessidade de uma senha, os usuários podem descriptografar seu cofre utilizando o LastPass Authenticator, dispensando o uso da senha mestra.",
+              "Simplifique os logins dos funcionários, eliminando as complexidades que as senhas trazem consigo.",
+              "Minimize os riscos associados ao uso de senhas pelos funcionários.",
             ]}
           />
         </DoubleGrid>
@@ -169,10 +170,8 @@ export default function lastPassBusines() {
             mb="2"
             paragraphPosition={{ base: "center", md: "end" }}
             textAlign={{ base: "center", md: "end" }}
-            title="Gerencie todos os seus
-            endpointFacilite o acesso dos funcionários
-            com o logon único (SSO)"
-            description="Gerencie todos os seus endpoints de qualquer lugar com um painel de visualização única onde você pode monitorar o status de qualquer dispositivo, implantar software e gerenciar alertas de conexão."
+            title="Centralize o gerenciamento de todos os seus endpoints e facilite o acesso dos funcionários através do logon único (SSO)"
+            description="Controle todos os seus endpoints de forma remota com um painel de visualização único, permitindo monitorar o status de qualquer dispositivo, implantar software e gerenciar alertas de conexão, independentemente de onde você esteja."
           />
         </DoubleGrid>
 
@@ -199,53 +198,59 @@ export default function lastPassBusines() {
         >
           <GridItem>
             <H4 color="Blue.800">
-              Ofereça controle granular de usuários aos administradores
+              Dê aos administradores controle preciso sobre os usuários
             </H4>
             <Text>
-              Obtenha informações sobre comportamentos em relação a senhas e
-              relatórios de segurança e de login para aumentar a conformidade.
-            </Text>
-          </GridItem>
-          <GridItem>
-            <H4 color="Blue.800">Simplifique a implementação</H4>
-            <Text>
-              Automatize a ativação e a desativação de usuários integrando o
-              LastPass ao diretório de usuários e aos provedores de identidade.
-            </Text>
-          </GridItem>
-          <GridItem>
-            <H4 color="Blue.800">Otimize o acesso dos funcionários</H4>
-            <Text>
-              Facilite os acessos e o trabalho dos funcionários dando adeus às
-              senhas.
+              Obtenha informações sobre comportamentos relacionados a senhas,
+              relatórios de segurança e de login para reforçar a conformidade.
             </Text>
           </GridItem>
           <GridItem>
             <H4 color="Blue.800">
-              Ssupervisão da TI com um console de administração
+              Facilite a implementação de forma simplificada
             </H4>
             <Text>
-              O console de administração do LastPass oferece supervisão completa
-              às equipes de TI. Simplifique as responsabilidades das equipes
-              fornecendo a elas um painel de gerenciamento de segurança
+              Automatize a ativação e desativação de usuários ao integrar o
+              LastPass ao diretório de usuários e provedores de identidade,
+              simplificando esse processo.
+            </Text>
+          </GridItem>
+          <GridItem>
+            <H4 color="Blue.800">
+              Aprimore o acesso dos funcionários de forma otimizada.
+            </H4>
+            <Text>
+              Simplifique o acesso e o trabalho dos funcionários ao eliminar a
+              necessidade de senhas.
+            </Text>
+          </GridItem>
+          <GridItem>
+            <H4 color="Blue.800">
+              Realize a supervisão da TI por meio de um console de
+              administração.
+            </H4>
+            <Text>
+              O console de administração do LastPass proporciona uma supervisão
+              abrangente às equipes de TI. Simplifique as responsabilidades das
+              equipes, oferecendo-lhes um painel de gerenciamento de segurança
               completo.
             </Text>
           </GridItem>
           <GridItem>
-            <H4 color="Blue.800">Gerenciamento de senhas empresarial</H4>
+            <H4 color="Blue.800">Gerenciamento corporativo de senhas.</H4>
             <Text>
-              Grandes empresas precisam de um gerenciador de senhas integrado à
-              tecnologia que já usam e a toda a organização. E o LastPass
-              Business faz exatamente isso.
+              Grandes empresas necessitam de um gerenciador de senhas integrado
+              à tecnologia que já utilizam em toda a organização, e o LastPass
+              Business atende exatamente a essa demanda.
             </Text>
           </GridItem>
           <GridItem>
-            <H4 color="Blue.800">Contas Families gratuitas</H4>
+            <H4 color="Blue.800">Contas Familiares gratuitas.</H4>
             <Text>
-              Dê segurança para os funcionários e sua família para viverem e
-              trabalharem de onde quiserem com contas gratuitas do LastPass
-              Families. Conceder mais cinco licenças do LastPass a amigos e
-              familiares
+              Proporcione segurança aos funcionários e suas famílias, permitindo
+              que vivam e trabalhem de qualquer lugar com contas gratuitas do
+              LastPass Families. Conceda até cinco licenças adicionais do
+              LastPass a amigos e familiares.
             </Text>
           </GridItem>
         </Grid>

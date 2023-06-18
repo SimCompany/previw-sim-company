@@ -18,7 +18,7 @@ export default function Footer() {
       </Link>
       <Grid
         bgColor='Blue.800'
-        gridTemplateColumns={{ base: '1fr', sm: ' 1fr 1fr', lg: '1fr 1fr 1fr' }}
+        gridTemplateColumns={{ base: '1fr', sm: ' 1fr 1fr', lg: '1fr 1fr 1fr 1fr' }}
         gridColumnGap='10'
         p={{ base: '50px 5%', sm: '5% 10%', lg: '5% 15%' }}
         mt='0px'>
@@ -51,6 +51,13 @@ export default function Footer() {
             <MenuItem link='/produtos/comunicacao/goto-meeting'>GoTo Meeting</MenuItem>
             <MenuItem link='/produtos/comunicacao/goto-webinar'>GoTo Webinar</MenuItem>
             <MenuItem link='/produtos/comunicacao/novas-possibilidades-com-goto'>Novas possibilidades com GoTo</MenuItem>
+          </Stack>
+        </GridItem>
+        <GridItem mb={{ base: '20px', sm: '0px' }}>
+          <Text as='h6' letterSpacing='2px' fontSize='20px' color='white' mb='2'>Senhas</Text>
+          <Stack spacing={2} color='white' fontSize='14px'>
+            <MenuItem link='/produtos/senhas/lastpass-business'>LastPass Empresarial</MenuItem>
+            <MenuItem link='/produtos/senhas/lastpass-pessoal'>LastPass Pessoal</MenuItem>
           </Stack>
         </GridItem>
 
