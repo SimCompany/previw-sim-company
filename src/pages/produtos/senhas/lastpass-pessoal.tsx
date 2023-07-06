@@ -12,6 +12,7 @@ import H5 from "../../../components/Texts/H5";
 
 import Acess from "./../../../img/gerenciament-de-senhas/s2.jpg";
 
+
 export default function GerenciamentoDeSenhas() {
   return (
     <>

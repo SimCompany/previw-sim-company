@@ -33,15 +33,14 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>
-          Sim Compampany | Comunicação empresarial e Aparelhos de Video e
-          conferência
-        </title>
+        <title>Comunicação empresarial - Aparelhos de Vídeo conferência</title>
 
         <meta
           name="description"
-          content="Produtos e Tecnologia para melhorar a comunicação da sua empresa, faça reuniões mais profissionais com produtos da GoTo e Sim Company"
+          content="Comunicação para empresas, aparelhos de atendimento e vídeo conferência para reuniões e atendimentos para toda empresa"
         />
+
+        <link type="canonical" href="https://www.simcompany.com.br/" />
       </Head>
       <Box as="main">
         <Flex
@@ -71,8 +70,9 @@ export default function Index() {
             </Text>
 
             <Text my="2" color="white">
-              Economize tempo e dinheiro atualizando seu sistema atual pelas
-              vantagens GoTo. Conheça todas as nossas soluções.
+              Economize tempo e dinheiro da sua empresa e maximize a qualidade
+              das reuniões e atendimentos atualizando seu sistema para nossos
+              produtos da GoTo, conheça nossos produtos empresariais.
             </Text>
 
             <ButtonForm>FALE CONOSCO</ButtonForm>
@@ -90,7 +90,7 @@ export default function Index() {
             textAlign={{ base: "center", lg: "start" }}
           >
             <Text as="h2" fontSize="40px" lineHeight="1.3" color="Blue.800">
-              A COLABORAÇÃO PERFEITA QUE CHEGA ATÉ VOCÊ!
+              As grandes empresas de comunicação estão juntas!
             </Text>
             <Text color="Blue.800">
               Uma escolha fácil para empresas que buscam soluções de suporte de
@@ -118,7 +118,7 @@ export default function Index() {
             textAlign={{ base: "center", lg: "start" }}
           >
             <Text
-              as="h2"
+              as="h3"
               fontSize={{ base: "40px", md: "50px" }}
               lineHeight="1.3"
               color={{ base: "Blue.800", md: "white" }}
@@ -126,12 +126,13 @@ export default function Index() {
               <Text as="span" color="Green.300">
                 O SISTEMA DE TELEFONIA EM NUVEM
               </Text>{" "}
-              MAIS COBIÇADO DO MERCADO
+              MAIS DESEJADO PARA EMPRESAS E ATENDIMENTOS
             </Text>
 
             <Text color={{ base: "Blue.800", md: "white" }} my="2">
-              Seu sistema de comunicação nunca mais será o mesmo, leve o que tem
-              de melhor para sua equipe e clientes.
+              O sistema da sua empresa nunca mais será o mesmo, os produtos da
+              GoTo junto com a Sim Company fornecem melhor qualidade para
+              reuniões e atendimento para seus clientes.
             </Text>
 
             <ButtonForm>CONFIRA ESTAS VANTÁGENS</ButtonForm>
@@ -146,11 +147,11 @@ export default function Index() {
           flexDirection={{ base: "column", md: "row" }}
         >
           <Box flex="0.4">
-            <Image src={SimCompany} alt="Comunicação digital simcompany" />
+            <Image src={SimCompany} alt="Comunicação digital" />
           </Box>
 
           <Box flex="0.6" textAlign={{ base: "center", lg: "start" }}>
-            <Text as="h2" fontSize="55px" lineHeight="1.3" color="Blue.800">
+            <Text as="h4" fontSize="55px" lineHeight="1.3" color="Blue.800">
               SIM COMPANY
             </Text>
 
@@ -189,8 +190,8 @@ export default function Index() {
           textAlign="center"
         >
           <Box maxW={{ base: "90%", md: "40%" }}>
-            <Text as="h2" fontSize="40px" lineHeight="1.3" color="Blue.800">
-              NOSSAS SOLUÇÕES
+            <Text as="h4" fontSize="40px" lineHeight="1.3" color="Blue.800">
+              Nossa solução de comunicação para empresas
             </Text>
             <Text>
               Facilite seus acessos e sua comunicação entre equipe e clientes de
@@ -205,7 +206,10 @@ export default function Index() {
           flexDirection={{ base: "column", lg: "row" }}
         >
           <Box alignSelf="center" flex="0.6">
-            <Image src={CloudSystem} alt="sistema em nuvem, a solução em comunicação digital" />
+            <Image
+              src={CloudSystem}
+              alt="sistema em nuvem, a solução em comunicação digital"
+            />
           </Box>
 
           <Box
@@ -214,12 +218,12 @@ export default function Index() {
             ml={{ base: "0px", lg: "30px" }}
           >
             <Text
-              as="h2"
+              as="h5"
               fontSize={{ base: "40px", lg: "50px" }}
               lineHeight="1.3"
               color="Blue.800"
             >
-              Comunicação e colaboração
+              Comunicação e colaboração empresarial
             </Text>
             <Text>
               Sua empresa precisa mais do que um simples serviço telefónico.
@@ -271,12 +275,17 @@ export default function Index() {
           flexDirection={{ base: "column-reverse", lg: "row" }}
         >
           <Box mt={{ base: "20px", lg: "0px" }} mr="30px">
-            <Text as="h2" fontSize="50px" lineHeight="1.3" color="Blue.800">
-              Acessos e suporte remotos
+            <Text
+              as="h5"
+              fontSize={{ base: "40px", lg: "50px" }}
+              lineHeight="1.3"
+              color="Blue.800"
+            >
+              Acessos e suporte remotos para empresas
             </Text>
             <Text>
-              Não se deixe limitar, veja novas oportunidades a partir do acesso
-              remoto.
+              Sua empresa mais segura, veja novas oportunidades a partir do
+              acesso remoto.
             </Text>
 
             <Stack>
@@ -335,7 +344,10 @@ export default function Index() {
           </Box>
 
           <Box alignSelf="center">
-            <Image src={RemoteSolution} alt="Soluções remotas, realize suas tarefas onde você estiver" />
+            <Image
+              src={RemoteSolution}
+              alt="Soluções remotas, realize suas tarefas onde você estiver"
+            />
           </Box>
         </Flex>
 
