@@ -19,7 +19,7 @@ export default function PresentationProduction({ urlImage, title, description, .
           <Image src={urlImage} />
         </Box>
       }
-      <H5 pt='4' fontSize='2xl' color='Blue.800'>
+      <H5 pt='4' fontSize='3xl' color='Blue.800'>
         {title}
       </H5>
       <Text >

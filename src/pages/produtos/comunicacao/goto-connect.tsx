@@ -17,12 +17,16 @@ import Group06 from "./../../../img/pabx/grup06.jpg";
 import Dashboard from "./../../../img/pabx/painel.jpg";
 
 import Phone from "./../../../img/phone.png";
+import BGImage from "./../../../img/comunicacao/pabx.jpg";
 
 export default function Pabx() {
   return (
     <>
       <Head>
-        <title>Sistema de telefonia completo e flexível para sua empresa</title>
+        <title>
+          Sistema de telefonia PABX completo e flexível para empresas, tudo em
+          um só lugar
+        </title>
         <meta
           name="description"
           content="Software de telefonia virtual, desvio de chamadas, planos de discagem personalizáveis que aumentam a satisfação dos clientes"
@@ -31,11 +35,11 @@ export default function Pabx() {
 
       <main style={{ maxWidth: "1920px", margin: "0 auto" }}>
         <Grid
+          style={{ backgroundImage: `url(${BGImage.src})` }}
           height="80vh"
           alignItems="center"
           px="10%"
           w="100%"
-          backgroundImage="url('https://i.imgur.com/F9pafmW.jpg')"
           backgroundPosition="center"
           backgroundRepeat="no-repeat"
           backgroundSize="cover"
@@ -45,21 +49,22 @@ export default function Pabx() {
         >
           <GridItem>
             <H1
-              lineHeight="40px"
+              lineHeight={{ base: "40px", lg: "50px" }}
               mb="20px"
               fontSize={{ base: "40px", lg: "50px" }}
               color="White"
               fontWeight="extrabold"
             >
-              A conexão que sua empresa precisa.
+              Tenha todos os meios de comunicação que sua empresa precise, os
+              melhores softwares para pequenas e grandes empresas
             </H1>
             <Text color="white">
-              Sistema completo e flexível que atende as suas necessidades
-              diárias, Telefonia em nuvem com sistema integrado de reuniões e
-              mensagens.
+              A Sim Company junto com a GoTo fornece os melhores softwares para
+              sua empresa, sistema de avaliação, atendente virtual, desvio de
+              chamadas e muitos outros, entre em contato conosco.
             </Text>
             <ButtonChakra link="#contact" mt="6" px="10" py="8">
-              SOLICITAR DEMONSTRAÇÃO
+              FALE COM UM CONSULTOR{" "}
             </ButtonChakra>
           </GridItem>
           <GridItem></GridItem>
@@ -67,7 +72,7 @@ export default function Pabx() {
 
         <Track
           bgColor="Green.300"
-          title="Telefonia, reuniões e mensagens all-in-one"
+          title="Telefonia, reuniões e mensagens tudo em um só lugar"
         />
 
         <Grid
@@ -81,23 +86,23 @@ export default function Pabx() {
           <PresentationProduction
             urlImage={Group04}
             title="Fácil instalação e configuração"
-            description="Você ficará surpreso com a facilidade de instalação do sistema. Configure rapidamente todos os seus roteamentos de chamadas em um editor visual."
+            description="Sistema de facil e rápida instalação, logo após a contratação do nosso software, você poderá utilizá-lo em pouco tempo."
           />
           <PresentationProduction
             my={{ base: "14", md: "0" }}
             urlImage={Group05}
-            title="Fale de onde estiver"
-            description="Alterne facilmente entre seu telefone desktop, aplicativo de desktop ou nosso aplicativo móvel para permanecer conectado."
+            title="Fale de onde estiver em qualquer dispositivo"
+            description="Altere entre o desktop, mobile ou tablet, tenha disponibilidade e acesso remoto sobe os contatos, gerando mais disponibilidade."
           />
           <PresentationProduction
             urlImage={Group06}
-            title="Chamadas de vídeo em HD"
-            description="Confie na videoconferência em HD disponível em todas as licenças. Além disso, consolide a lista de ferramentas de comunicação que você usa com um aplicativo simples."
+            title="Reuniões de alta qualidade"
+            description="Vídeoconferencia de alta qualidade, reuniões que provam o valor da sua empresa, tenha diversos recursos disponíveis."
           />
         </Grid>
 
         <Flex flexDirection="column" alignItems="center" textAlign="center">
-          <H3 mb="20px">Solicite um orçamento com a Sim Company</H3>
+          <H3 mb="20px">Solicite um orçamento para sua empresa</H3>
           <ButtonChakra link="#contact" px="60px" py="24px">
             Fazer um orçamento
           </ButtonChakra>
@@ -110,12 +115,12 @@ export default function Pabx() {
         >
           <Topics
             title="Um sistema de telefonia virtual que trabalha em sintonia com você"
-            description="Adicione números para ligações gratuitas ou faça a portabilidade dos números atuais. Implemente um diretório de árvore telefônica em toda a empresa. Crie um atendente virtual para encaminhar chamadas. Um fluxo de chamadas adequado impulsiona os negócios na direção certa."
+            description="Adicione vários números gratuito ou faça a portabilidade do seu número. Obtenha extensões ilimitadas e crie pastas de telefone principais estruturadas em árvore para toda a empresa. Você pode até integrar com seus aplicativos favoritos, como Salesforce e Slack."
           />
         </DoubleGrid>
 
         <DoubleGrid
-          my={{ base: "35px", md: "50px" }}
+          my={{ base: "0px", md: "0px" }}
           flexDirection={{ base: "column", lg: "row-reverse" }}
           textAlign="end"
           urlImage={BranchCall}
@@ -133,27 +138,26 @@ export default function Pabx() {
         ></Track>
 
         <DoubleGrid
-          my={{ base: "35px", md: "50px" }}
+          my={{ base: "0px", md: "0px" }}
           flexDirection={{ base: "column", lg: "row" }}
           urlImage={Dashboard}
         >
           <Topics
             title="Sistema de telefonia virtual
-            que atende às suas
+            que atende todas às suas
             necessidades"
             description="Adicione números gratuitos ou transfira seus números atuais. Implemente um diretório de árvore telefônica em toda a empresa. Crie um atendedor virtual para encaminhamento de chamadas. O fluxo de chamadas certo move o negócio na direção certa."
           />
         </DoubleGrid>
 
         <DoubleGrid
-          my={{ base: "35px", md: "50px" }}
+          my={{ base: "0px", md: "0px" }}
           flexDirection={{ base: "column", lg: "row-reverse" }}
           urlImage={Can}
           textAlign="end"
         >
           <Topics
-            title="Aumentar a satisfação
-            dos seus clientes"
+            title="Tenha avaliação dos seus clientes"
             description="Aumente a satisfação dos clientes e ajude a alavancar a produtividade dos representantes otimizando o fluxo de trabalho da central de atendimento com interações mais rápidas e fluidas."
           />
         </DoubleGrid>

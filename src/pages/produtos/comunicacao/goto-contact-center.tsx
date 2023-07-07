@@ -61,7 +61,7 @@ export default function Comunicação() {
         </Grid>
 
         <Track bgColor='Green.300'
-          title='Central de atendimento que trabalha em sincronia com você'
+          title='Central de atendimento que trabalha em sincronia come você'
         />
 
         <Grid my={{ base: '50px', md: '85px' }} gridTemplateColumns={{ base: '1fr', md: '1fr 1fr 1fr' }} gridTemplateRows='1fr' gridColumnGap='7.5%' width='75%' mx='12.5%'>
