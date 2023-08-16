@@ -68,8 +68,7 @@ export default function Footer() {
             ENDEREÇO
           </Text>
           <Text fontWeight="light" fontSize="14px" color="white" mt="2" mb="4">
-            Rua Dr. Campos, n° 78 sala 22 e 23, centro - Cerquilho - SP - CEP:
-            18.520.103
+            Rua Dr. Soares Hungria 772 - Centro Cerquilho - SP
           </Text>
 
           <Link href="https://www.privacidade.com.br/portal-de-privacidade/?token=20f20d7c907e61a202540bb74dc86ecc&site_url=www.ticonnected.com.br">
