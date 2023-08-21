@@ -26,6 +26,8 @@ import Background from "./../img/index/b3.jpg";
 import { useBreakpointValue } from "@chakra-ui/react";
 import { ButtonForm } from "../components/ButtonForm";
 import Head from "next/head";
+import FormButtonParceria from "../components/ButtonFormParceria/FormButton";
+import { ButtonFormParceria } from "../components/ButtonFormParceria";
 
 export default function Index() {
   const [isLargerThan520] = useMediaQuery("(min-width: 520px)");
@@ -76,6 +78,7 @@ export default function Index() {
             </Text>
 
             <ButtonForm>FALE CONOSCO</ButtonForm>
+            <ButtonFormParceria mt="4">SEJA UM PARCEIRO</ButtonFormParceria>
           </Box>
         </Flex>
 
