@@ -30,7 +30,7 @@ export default function FormButtonParceria({
 }: formData) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState(0);
+  const [number, setNumber] = useState(0);
   const [state, setState] = useState("");
   const [city, setCity] = useState("");
   const [branches, setBranches] = useState(0);
@@ -50,7 +50,7 @@ export default function FormButtonParceria({
       title: "Parceria SIM COMPANY",
       name,
       email,
-      phone,
+      number,
       // state,
       city,
       // branches,
@@ -121,10 +121,10 @@ export default function FormButtonParceria({
           }}
         />
         <InputForm
-          name="phone"
+          name="number"
           placeholder="Telefone"
           onChange={(e) => {
-            setPhone(Number(e.target.value));
+            setNumber(Number(e.target.value));
           }}
         />
       </Box>
