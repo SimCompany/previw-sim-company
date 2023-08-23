@@ -59,7 +59,7 @@ export default function FormButtonParceria({
     };
 
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}ticonnected`, data);
+      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}/form/simcompany-parceria`, data);
     } catch (error) {}
 
     await reload();
@@ -85,7 +85,7 @@ export default function FormButtonParceria({
           fontWeight="bold"
           color={colorProps}
         >
-          Gostaria de receber uma proposta para o seu negócio?
+          Seja um parceiro da simcompany
         </Text>
       </Box>
       <InputForm
@@ -155,7 +155,7 @@ export default function FormButtonParceria({
         mt="6"
         py="8"
       >
-        OBTER COTAÇÃO
+        Enviar informações
       </ButtonChakra>
     </Flex>
   );
