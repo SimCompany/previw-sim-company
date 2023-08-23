@@ -60,9 +60,12 @@ export default function FormButtonParceria({
 
     try {
       await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}/form/simcompany-parceria`, data);
-    } catch (error) {}
+    } catch (error) {
+      console.log(error)
+    }
 
-    await reload();
+
+    // await reload();
   }
 
   return (
