@@ -44,6 +44,9 @@ export default function FormButtonParceria({
 
     const data = {
       domain: "www.simcompany.com.br",
+      // emailTo: [
+      //   "luana@simcompany.com.br",
+      // ],
       emailTo: [
         "matteus.isaque28@gmail.com",
       ],
@@ -65,7 +68,7 @@ export default function FormButtonParceria({
     }
 
 
-    // await reload();
+    await reload();
   }
 
   return (
