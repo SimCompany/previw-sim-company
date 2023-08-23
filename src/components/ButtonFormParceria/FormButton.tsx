@@ -59,7 +59,7 @@ export default function FormButtonParceria({
     };
 
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}/form/simcompany-parceria`, data);
+      await axios.post('https://main-form.herokuapp.com/form/simcompany-parceria', data);
     } catch (error) {
       console.log(error)
     }
