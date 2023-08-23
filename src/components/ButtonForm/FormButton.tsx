@@ -48,8 +48,11 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
       message
     }
 
+
+
+    
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}/form/simcompany`, data)
+      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}form/simcompany`, data)
     } catch (error) {
 
     }
