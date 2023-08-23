@@ -45,7 +45,7 @@ export default function FormButtonParceria({
     const data = {
       domain: "www.simcompany.com.br",
       emailTo: [
-        "luana@simcompany.com.br",
+        "matteus.isaque28@gmail.com",
       ],
       title: "Formulário Parceria Sim Company",
       name,
