@@ -47,7 +47,7 @@ export default function FormButtonParceria({
       emailTo: [
         "matteus.isaque28@gmail.com",
       ],
-      title: "Formulário Parceria Sim Company",
+      title: "Parceria SIM COMPANY",
       name,
       email,
       phone,
@@ -55,7 +55,7 @@ export default function FormButtonParceria({
       city,
       // branches,
       // companyName,
-      message,
+      // message,
     };
 
     try {
