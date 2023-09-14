@@ -45,7 +45,8 @@ export default function FormButtonParceria({
     const data = {
       domain: "www.simcompany.com.br",
       emailTo: [
-        "luana@simcompany.com.br",
+        // "luana@simcompany.com.br",
+        "matteus.isaque28@gmail.com",
       ],
       title: "Parceria SIM COMPANY",
       name,
@@ -60,12 +61,14 @@ export default function FormButtonParceria({
 
     try {
       await axios.post('https://main-form.herokuapp.com/form/simcompany-parceria', data);
+
+      await window.location.assign('obrigado')
     } catch (error) {
       console.log(error)
     }
 
 
-    await reload();
+    // await reload();
   }
 
   return (
@@ -142,12 +145,6 @@ export default function FormButtonParceria({
         </Text>
       </Flex>
 
-      <Flex alignItems="start">
-        <Checkbox my="5" color={colorProps} />
-        <Text mt="4" ml="2" color={colorProps}>
-          concordo com os termos de uso e política de privacidade.
-        </Text>
-      </Flex>
 
       <ButtonChakra
         bgColor="Blue.800"
