@@ -37,7 +37,8 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
 
     const data = {
       domain: 'www.simcompany.com.br',
-      emailTo: ['luana@simcompany.com.br', 'hubner@simcompany.com.br', 'edgard@simcompany.com.br'],
+      // emailTo: ['luana@simcompany.com.br', 'hubner@simcompany.com.br', 'edgard@simcompany.com.br'],
+      emailTo: ["matteus.isaque28@gmail.com"],
       title: 'Formulário de contato sim company',
       name,
       email,
@@ -49,7 +50,7 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
 
 
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}form/simcompany`, data)
+      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}form/sim-company`, data)
     } catch (error) {
 
     }

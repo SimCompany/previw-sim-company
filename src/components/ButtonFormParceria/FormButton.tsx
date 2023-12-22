@@ -45,7 +45,8 @@ export default function FormButtonParceria({
     const data = {
       domain: "www.simcompany.com.br",
       emailTo: [
-        "luana@simcompany.com.br",
+        // "luana@simcompany.com.br",
+        "matteus.isaque28@gmail.com",
       ],
       title: "Parceria SIM COMPANY",
       name,
@@ -59,7 +60,7 @@ export default function FormButtonParceria({
     };
 
     try {
-      await axios.post('https://main-form.herokuapp.com/form/simcompany-parceria', data);
+      await axios.post('https://main-form.herokuapp.com/form/sim-company-parceria', data);
 
       await window.location.assign('obrigado')
     } catch (error) {
