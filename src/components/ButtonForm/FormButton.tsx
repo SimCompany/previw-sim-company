@@ -50,7 +50,7 @@ export default function FormButton({ plane, router, bgColorProp = 'Green.300', c
 
 
     try {
-      await axios.post(`${process.env.NEXT_PUBLIC_EMAIL}form/sim-company`, data)
+      await axios.post(`https://main-form.herokuapp.com/form/sim-company`, data)
     } catch (error) {
 
     }
